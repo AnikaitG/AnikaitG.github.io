@@ -36,7 +36,7 @@ function listAbnos(data) {
             abnoRes += `<div class="row abno-card-row g-0">`;
         }
 
-        abnoRes += `<div class="col-md-8r col-sm-3 col-xs-6 abno-card-col">
+        abnoRes += `<div class="col-md-8r col-sm-3 col-6 abno-card-col">
                         <div class="card abno-card h-100">
                         <div class="bg-image hover-overlay">
                             <img src="images/portraits/${abnoObj.name} Portrait.png" class="img-fluid abno-card-portrait" />
