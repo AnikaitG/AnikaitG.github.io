@@ -1,0 +1,1332 @@
+[
+    {
+        "name": "One Sin and Hundreds of Good Deeds",
+        "risk": "ZAYIN",
+        "code": "O-03-03",
+        "ego": "Penitence",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Standard Training Dummy Rabbit",
+        "risk": "TETH",
+        "code": "O-00-00",
+        "ego": "Standard Training E.G.O",
+        "games": ["LC"]
+    },
+    {
+        "name": "Opened Can of Wellcheers",
+        "risk": "ZAYIN",
+        "code": "F-05-52",
+        "ego": "Soda",
+        "games": ["LC","LCB"]
+    },
+    {
+        "name": "Fairy Festival",
+        "risk": "ZAYIN",
+        "code": "F-04-83",
+        "ego": "Wingbeat",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Don't Touch Me",
+        "risk": "ZAYIN",
+        "code": "O-05-47",
+        "ego": "???",
+        "games": ["LC"]
+    },
+    {
+        "name": "You're Bald...",
+        "risk": "ZAYIN",
+        "code": "Bald-is-awesome!",
+        "ego": "Tough",
+        "games": ["LC"]
+    },
+    {
+        "name": "You Must Be Happy",
+        "risk": "ZAYIN",
+        "code": "T-09-94",
+        "ego": "???",
+        "games": ["LC"]
+    },
+    {
+        "name": "Old Belief and Promises",
+        "risk": "ZAYIN",
+        "code": "T-09-97",
+        "ego": "???",
+        "games": ["LC"]
+    },
+    {
+        "name": "Mirror of Adjustment",
+        "risk": "ZAYIN",
+        "code": "O-09-81",
+        "ego": "???",
+        "games": ["LC"]
+    },
+    {
+        "name": "We Can Change Anything",
+        "risk": "ZAYIN",
+        "code": "T-09-85",
+        "ego": "???",
+        "games": ["LC"]
+    },
+    {
+        "name": "Scorched Girl",
+        "risk": "TETH",
+        "code": "F-01-02",
+        "ego": "Fourth Match Flame",
+        "games": ["LC","LoR","LCB"]
+    },
+    {
+        "name": "Bloodbath",
+        "risk": "TETH",
+        "code": "T-05-51",
+        "ego": "Wrist Cutter",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Old Lady",
+        "risk": "TETH",
+        "code": "O-01-12",
+        "ego": "Solitude",
+        "games": ["LC"]
+    },
+    {
+        "name": "Spider Bud",
+        "risk": "TETH",
+        "code": "T-02-43",
+        "ego": "Red Eyes",
+        "games": ["LC","LoR","LCB"]
+    },
+    {
+        "name": "Forsaken Murderer",
+        "risk": "TETH",
+        "code": "T-01-54",
+        "ego": "Regret",
+        "games": ["LC","LoR","LCB"]
+    },
+    {
+        "name": "Wall Gazer",
+        "risk": "TETH",
+        "code": "F-01-18",
+        "ego": "Screaming Wedge",
+        "games": ["LC"]
+    },
+    {
+        "name": "Beauty and the Beast",
+        "risk": "TETH",
+        "code": "F-02-44",
+        "ego": "Horn",
+        "games": ["LC"]
+    },
+    {
+        "name": "Fragment of the Universe",
+        "risk": "TETH",
+        "code": "O-03-60",
+        "ego": "Fragments from Somewhere",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Shy Look Today",
+        "risk": "TETH",
+        "code": "O-01-92",
+        "ego": "Today's Expression",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Grave of Cherry Blossoms",
+        "risk": "TETH",
+        "code": "O-04-100",
+        "ego": "Cherry Blossoms",
+        "games": ["LC"]
+    },
+    {
+        "name": "1.76 MHz",
+        "risk": "TETH",
+        "code": "T-06-27",
+        "ego": "Noise",
+        "games": ["LC"]
+    },
+    {
+        "name": "Ppodae",
+        "risk": "TETH",
+        "code": "D-02-107",
+        "ego": "CUTE!!!",
+        "games": ["LC"]
+    },
+    {
+        "name": "Void Dream",
+        "risk": "TETH",
+        "code": "T-02-99",
+        "ego": "Engulfing Dream",
+        "games": ["LC"]
+    },
+    {
+        "name": "Crumbling Armor",
+        "risk": "TETH",
+        "code": "O-05-61",
+        "ego": "Life for the Daredevil",
+        "games": ["LC"]
+    },
+    {
+        "name": "Meat Lantern",
+        "risk": "TETH",
+        "code": "O-04-84",
+        "ego": "Lantern",
+        "games": ["LC","LCB"]
+    },
+    {
+        "name": "Theresia",
+        "risk": "TETH",
+        "code": "T-09-09",
+        "ego": "???",
+        "games": ["LC"]
+    },
+    {
+        "name": "Heart of Aspiration",
+        "risk": "TETH",
+        "code": "T-09-77",
+        "ego": "Aspiration",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Behavior Adjustment",
+        "risk": "TETH",
+        "code": "O-09-96",
+        "ego": "???",
+        "games": ["LC"]
+    },
+    {
+        "name": "Prophecy of the Skin",
+        "risk": "TETH",
+        "code": "T-09-90",
+        "ego": "???",
+        "games": ["LC"]
+    },
+    {
+        "name": "Luminous Bracelet",
+        "risk": "TETH",
+        "code": "T-09-95",
+        "ego": "???",
+        "games": ["LC"]
+    },
+    {
+        "name": "Happy Teddy Bear",
+        "risk": "HE",
+        "code": "T-04-06",
+        "ego": "Bear Paws",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Little Helper",
+        "risk": "HE",
+        "code": "T-05-41",
+        "ego": "Grinder Mk4",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Red Shoes",
+        "risk": "HE",
+        "code": "O-04-08",
+        "ego": "Sanguine Desire",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Child of the Galaxy",
+        "risk": "HE",
+        "code": "O-01-55",
+        "ego": "Galaxy",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Laetitia",
+        "risk": "HE",
+        "code": "O-01-67",
+        "ego": "Laetitia",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Singing Machine",
+        "risk": "HE",
+        "code": "O-05-30",
+        "ego": "Harmony",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Scarecrow Searching for Wisdom",
+        "risk": "HE",
+        "code": "F-01-87",
+        "ego": "Harvest",
+        "games": ["LC","WL","LoR"]
+    },
+    {
+        "name": "Warm-hearted Woodsman",
+        "risk": "HE",
+        "code": "F-05-32",
+        "ego": "Logging",
+        "games": ["LC","WL","LoR"]
+    },
+    {
+        "name": "Porccubus",
+        "risk": "HE",
+        "code": "O-02-98",
+        "ego": "Pleasure",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Nameless Fetus",
+        "risk": "HE",
+        "code": "O-01-15",
+        "ego": "Crybaby",
+        "games": ["LC"]
+    },
+    {
+        "name": "Schadenfreude",
+        "risk": "HE",
+        "code": "O-05-76",
+        "ego": "Gaze",
+        "games": ["LC"]
+    },
+    {
+        "name": "Rudolta",
+        "risk": "HE",
+        "code": "F-02-49",
+        "ego": "Christmas",
+        "games": ["LC"]
+    },
+    {
+        "name": "The Snow Queen",
+        "risk": "HE",
+        "code": "F-01-37",
+        "ego": "Frost Shard",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Funeral of the Dead Butterflies",
+        "risk": "HE",
+        "code": "T-01-68",
+        "ego": "Solemn Vow",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Der Freischütz",
+        "risk": "HE",
+        "code": "F-01-69",
+        "ego": "Magic Bullet",
+        "games": ["LC","LoR","LCB"]
+    },
+    {
+        "name": "Crazed Researcher's Notes",
+        "risk": "HE",
+        "code": "T-09-78",
+        "ego": "???",
+        "games": ["LC"]
+    },
+    {
+        "name": "Giant Tree Sap",
+        "risk": "HE",
+        "code": "T-09-80",
+        "ego": "???",
+        "games": ["LC"]
+    },
+    {
+        "name": "Shelter from the 27th of March",
+        "risk": "HE",
+        "code": "T-09-82",
+        "ego": "???",
+        "games": ["LC"]
+    },
+    {
+        "name": "Portrait of Another World",
+        "risk": "HE",
+        "code": "T-09-91",
+        "ego": "???",
+        "games": ["LC"]
+    },
+    {
+        "name": "The Dreaming Current",
+        "risk": "WAW",
+        "code": "T-02-71",
+        "ego": "Ecstasy",
+        "games": ["LC"]
+    },
+    {
+        "name": "Queen Bee",
+        "risk": "WAW",
+        "code": "T-04-50",
+        "ego": "Hornet",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Little Red Riding Hooded Mercenary",
+        "risk": "WAW",
+        "code": "F-01-57",
+        "ego": "Crimson Scar",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Big and Might be Bad Wolf",
+        "risk": "WAW",
+        "code": "F-02-58",
+        "ego": "Blue Scar",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Fiery Bird",
+        "risk": "WAW",
+        "code": "O-02-101",
+        "ego": "Feather of Honor",
+        "games": ["LC"]
+    },
+    {
+        "name": "Heroic Monk",
+        "risk": "WAW",
+        "code": "D-01-110",
+        "ego": "Amrita",
+        "games": ["LC"]
+    },
+    {
+        "name": "Yin",
+        "risk": "WAW",
+        "code": "O-05-102",
+        "ego": "Discord",
+        "games": ["LC"]
+    },
+    {
+        "name": "Yang",
+        "risk": "WAW",
+        "code": "O-07-103",
+        "ego": "???",
+        "games": ["LC"]
+    },
+    {
+        "name": "Snow White's Apple",
+        "risk": "WAW",
+        "code": "F-04-42",
+        "ego": "Green Stem",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Alriune",
+        "risk": "WAW",
+        "code": "T-04-53",
+        "ego": "Faint Aroma",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "The Burrowing Heaven",
+        "risk": "WAW",
+        "code": "O-04-72",
+        "ego": "Heaven",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Parasite Tree",
+        "risk": "WAW",
+        "code": "D-04-108",
+        "ego": "Hypocrisy",
+        "games": ["LC"]
+    },
+    {
+        "name": "Little Prince",
+        "risk": "WAW",
+        "code": "O-04-66",
+        "ego": "Spore",
+        "games": ["LC"]
+    },
+    {
+        "name": "Dream of a Black Swan",
+        "risk": "WAW",
+        "code": "F-02-70",
+        "ego": "Black Swan",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Queen of Hatred",
+        "risk": "WAW",
+        "code": "O-01-04",
+        "ego": "In the Name of Love and Hate",
+        "games": ["LC","WL","LoR"]
+    },
+    {
+        "name": "King of Greed",
+        "risk": "WAW",
+        "code": "O-01-64",
+        "ego": "Gold Rush",
+        "games": ["LC","WL","LoR"]
+    },
+    {
+        "name": "Knight of Despair",
+        "risk": "WAW",
+        "code": "O-01-73",
+        "ego": "Sword Sharpened by Tears",
+        "games": ["LC","WL","LoR"]
+    },
+    {
+        "name": "Naked Nest",
+        "risk": "WAW",
+        "code": "O-02-74",
+        "ego": "Shed Skin",
+        "games": ["LC"]
+    },
+    {
+        "name": "Dimensional Refraction Variant",
+        "risk": "WAW",
+        "code": "O-03-88",
+        "ego": "Diffraction",
+        "games": ["LC"]
+    },
+    {
+        "name": "La Luna",
+        "risk": "WAW",
+        "code": "D-01-105",
+        "ego": "Moonlight",
+        "games": ["LC"]
+    },
+    {
+        "name": "Flesh Idol",
+        "risk": "WAW",
+        "code": "T-09-79",
+        "ego": "???",
+        "games": ["LC"]
+    },
+    {
+        "name": "Backwards Clock",
+        "risk": "WAW",
+        "code": "D-09-104",
+        "ego": "???",
+        "games": ["LC"]
+    },
+    {
+        "name": "Express Train to Hell",
+        "risk": "WAW",
+        "code": "T-09-86",
+        "ego": "???",
+        "games": ["LC"]
+    },
+    {
+        "name": "Punishing Bird",
+        "risk": "TETH",
+        "code": "O-02-56",
+        "ego": "Beak",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Big Bird",
+        "risk": "WAW",
+        "code": "O-02-40",
+        "ego": "Lamp",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Judgement Bird",
+        "risk": "WAW",
+        "code": "O-02-62",
+        "ego": "Justitia",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Apocalypse Bird",
+        "risk": "ALEPH",
+        "code": "O-02-63",
+        "ego": "Twilight",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Nothing There",
+        "risk": "ALEPH",
+        "code": "O-06-20",
+        "ego": "Mimicry",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Blue Star",
+        "risk": "ALEPH",
+        "code": "O-03-93",
+        "ego": "Sound of a Star",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Mountain of Smiling Bodies",
+        "risk": "ALEPH",
+        "code": "T-01-75",
+        "ego": "Smile",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "The Silent Orchestra",
+        "risk": "ALEPH",
+        "code": "T-01-31",
+        "ego": "Da Capo",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "CENSORED",
+        "risk": "ALEPH",
+        "code": "O-03-89",
+        "ego": "CENSORED",
+        "games": ["LC"]
+    },
+    {
+        "name": "Army in Black",
+        "risk": "ALEPH",
+        "code": "D-01-106",
+        "ego": "Pinks",
+        "games": ["LC"]
+    },
+    {
+        "name": "Melting Love",
+        "risk": "ALEPH",
+        "code": "D-03-109",
+        "ego": "Adoration",
+        "games": ["LC"]
+    },
+    {
+        "name": "Plague Doctor",
+        "risk": "ZAYIN",
+        "code": "O-01-45",
+        "ego": "Bless",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "WhiteNight",
+        "risk": "ALEPH",
+        "code": "T-03-46",
+        "ego": "Paradise Lost",
+        "games": ["LC","LoR"]
+    },
+    {
+        "name": "Dingle-Dangle",
+        "risk": "TETH",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["WL"]
+    },
+    {
+        "name": "My Sweet Home",
+        "risk": "TETH",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["WL"]
+    },
+    {
+        "name": "White Lake",
+        "risk": "HE",
+        "code": "?-??-??-??",
+        "ego": "Torn-off Wings",
+        "games": ["WL"]
+    },
+    {
+        "name": "The Penitent Girl",
+        "risk": "HE",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["WL"]
+    },
+    {
+        "name": "Red Queen",
+        "risk": "TETH",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["WL"]
+    },
+    {
+        "name": "Tangle",
+        "risk": "TETH",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["WL"]
+    },
+    {
+        "name": "Scaredy Cat",
+        "risk": "HE",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["WL","LoR"]
+    },
+    {
+        "name": "The Road Home",
+        "risk": "HE",
+        "code": "?-??-??-??",
+        "ego": "Homing Instinct",
+        "games": ["WL","LoR"]
+    },
+    {
+        "name": "Hookah Caterpillar",
+        "risk": "WAW",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["WL"]
+    },
+    {
+        "name": "Bottle of Tears",
+        "risk": "ZAYIN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["WL"]
+    },
+    {
+        "name": "Servant of Wrath",
+        "risk": "WAW",
+        "code": "?-??-??-??",
+        "ego": "Blind Rage",
+        "games": ["WL","LoR"]
+    },
+    {
+        "name": "Pygmalion",
+        "risk": "WAW",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["WL"]
+    },
+    {
+        "name": "Titania",
+        "risk": "ALEPH",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["WL"]
+    },
+    {
+        "name": "Nobody Is",
+        "risk": "ALEPH",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["WL"]
+    },
+    {
+        "name": "The Drowned Sisters",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["WL"]
+    },
+    {
+        "name": "Blue Smocked Shepherd",
+        "risk": "WAW",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["WL"]
+    },
+    {
+        "name": "Reddened Buddy",
+        "risk": "WAW",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["WL"]
+    },
+    {
+        "name": "Piscine Mermaid",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["WL"]
+    },
+    {
+        "name": "Staining Rose",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "Blooming",
+        "games": ["WL"]
+    },
+    {
+        "name": "Pinocchio",
+        "risk": "UNKNOWN",
+        "code": "?-??-??",
+        "ego": "Deceit",
+        "games": ["LoR"]
+    },
+    {
+        "name": "Silent Girl",
+        "risk": "TETH",
+        "code": "O-01-01",
+        "ego": "Remorse",
+        "games": ["LoR"]
+    },
+    {
+        "name": "Jester of Nihil",
+        "risk": "UNKNOWN",
+        "code": "?-??-??",
+        "ego": "Nihil",
+        "games": ["LoR"]
+    },
+    {
+        "name": "Nosferatu",
+        "risk": "WAW",
+        "code": "?-??-??",
+        "ego": "Thirst",
+        "games": ["LoR"]
+    },
+    {
+        "name": "Ozma",
+        "risk": "WAW",
+        "code": "?-??-??",
+        "ego": "Faded Memories",
+        "games": ["LoR"]
+    },
+    {
+        "name": "Adult Telling Lies",
+        "risk": "UNKNOWN",
+        "code": "?-??-??",
+        "ego": "False Throne",
+        "games": ["LoR"]
+    },
+    {
+        "name": "Price of Silence",
+        "risk": "WAW",
+        "code": "O-05-65",
+        "ego": "Dead Silence",
+        "games": ["LoR"]
+    },
+    {
+        "name": "Ebony Queen's Apple",
+        "risk": "WAW",
+        "code": "F-04-03-04",
+        "ego": "Ebony Stem",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Doomsday Calendar",
+        "risk": "HE",
+        "code": "M-04-04-05",
+        "ego": "Impending Day",
+        "games": ["LCB"]
+    },
+    {
+        "name": "False Apple",
+        "risk": "HE",
+        "code": "O-02-04-06",
+        "ego": "Legerdemain",
+        "games": ["LCB"]
+    },
+    {
+        "name": "You Must Become Strong",
+        "risk": "UNKNOWN",
+        "code": "T-04-10-06",
+        "ego": "Makeshift Surgery",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Pink Shoes",
+        "risk": "UNKNOWN",
+        "code": "F-04-10-13",
+        "ego": "Roseate Desire",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Baba Yaga",
+        "risk": "UNKNOWN",
+        "code": "F-05-10-18",
+        "ego": "Rime Shank",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Alleyway Watchdog",
+        "risk": "HE",
+        "code": "O-02-10-11",
+        "ego": "Telepole",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Headless Ichthys",
+        "risk": "HE",
+        "code": "O-02-11-26",
+        "ego": "Fluid Sac",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Blubbering Toad",
+        "risk": "ZAYIN",
+        "code": "T-01-23-04",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "kqe-1j-23",
+        "risk": "HE",
+        "code": "O-06-20-02",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "My Form Empties",
+        "risk": "WAW",
+        "code": "M-04-04-04",
+        "ego": "Ya Śūnyatā Tad Rūpam",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Brazen Bull",
+        "risk": "TETH",
+        "code": "M-01-11-07",
+        "ego": "Capote",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Fairy Gentleman",
+        "risk": "TETH",
+        "code": "F-01-11-12",
+        "ego": "Sloshing",
+        "games": ["LCB"]
+    },
+    {
+        "name": "So That No One Will Cry",
+        "risk": "TETH",
+        "code": "T-04-11-20",
+        "ego": "Red Sheet",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Drifting Fox",
+        "risk": "HE",
+        "code": "T-02-11-03",
+        "ego": "Sunshower",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Shock Centipede",
+        "risk": "HE",
+        "code": "T-02-11-04",
+        "ego": "AEDD",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Fairy-Long-Legs",
+        "risk": "TETH",
+        "code": "F-01-11-15",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Steam Transport Machine",
+        "risk": "HE",
+        "code": "O-06-21-16",
+        "ego": "Nixie Divergence",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Faelantern",
+        "risk": "TETH",
+        "code": "?-??-??-??",
+        "ego": "Lantern",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Wayward Passenger",
+        "risk": "HE",
+        "code": "T-02-21-07",
+        "ego": "Dimension Shredder",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Sign of Roses",
+        "risk": "WAW",
+        "code": "T-04-21-22",
+        "ego": "Garden of Thorns",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Ambling Pearl",
+        "risk": "WAW",
+        "code": "O-02-21-11",
+        "ego": "Effervescent Corrosion",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Prophet of the Skin",
+        "risk": "TETH",
+        "code": "T-03-21-09",
+        "ego": "9:2",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Dream-Devouring Siltcurrent",
+        "risk": "WAW",
+        "code": "T-02-21-06",
+        "ego": "Blind Obsession",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Drenched Gossypium",
+        "risk": "TETH",
+        "code": "O-04-20-11",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Ardor Blossom Moth",
+        "risk": "HE",
+        "code": "O-01-20-07",
+        "ego": "Ardor Blossom Star",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Spiral of Contempt",
+        "risk": "WAW",
+        "code": "T-03-20-04",
+        "ego": "Contempt",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Rising Ashes",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Nymph",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Wailing Coffin",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Paper Chairman",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Sunset Wayfarer",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Hurting Teddy Bear",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "Hex Nail",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Heavenly Executor's Scribe",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "Pursuance",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Lost Mind",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Monkey Tree",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Hole-in-the-Man",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Stuck in Heaven",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Burst Star",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Spider of Marriage",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Dreaming Electric Sheep",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Will You Play",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Pagoda Veneration",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "Wishing Cairn",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Shy Look Tomorrow",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "Tomorrow's Expression",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Drunkard",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Chattering Teeth",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Four-hundred Roses",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Children in the Flask",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Little Cleaner",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Smokey Old Man",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Star Luminary",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Centipede Apostle",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "4th Front of the Smoke War",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Forsaken Employee",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Rose Hunter",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Heavenly Commander's Throne",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Dimensional Oxidation Variant",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Funeral of a Dying Butterfly",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Der Schütze",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Overdue Assignments",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Centaur",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Hydra",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Sleepyhead",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Golden Grip",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Highway Devotee",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Time Duck",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Dimensional Orbit Stabilizer",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Tomb of Bone",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Sleeping Bag of Olden Days",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Bound King",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Handshake of Handshakes",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Portrait of a Certain Day",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Broken Wings",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Cyclops",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Clockwork Roly-poly",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Explorer on a Bereaved Road",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Resident of Metropolaris",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Basilisoup",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Sandolph",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
+        "games": ["LCB"]
+    }
+]

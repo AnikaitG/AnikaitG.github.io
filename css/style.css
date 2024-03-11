@@ -1,0 +1,145 @@
+:root {
+    --zayin: #21F900;
+    --teth: #1AA1FF;
+    --he: #FEF900;
+    --waw: #7A30F1;
+    --aleph: #FF0000;
+    --unknown: #5C5A5A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    font-family: 'Norwester', sans-serif;
+    background-color: #3c3c3c;
+    min-height: 100vh;
+    width: fixed;
+    color: white;
+    padding-left: 2%;
+    padding-top: 2%;
+    position: fixed;
+    z-index: 1;
+    flex: 1;
+    word-wrap: break-word;
+}
+
+.codex-container {
+    margin: 0;
+    padding-right: 1%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-top: .25%;
+    padding-bottom: .25%;
+    background-color: #7F7F7C;
+}
+
+.abno-card-row {
+    padding-top: .25%;
+    padding-bottom: .25%;
+    padding-left: 1%;
+}
+
+.abno-card-portrait {
+    width: 100%;
+    min-height: 75px;
+    max-height: 150px;
+}
+
+.abno-card {
+    border-color: black;
+    font-family: 'Norwester', sans-serif;
+    border-radius: 0;
+    text-align: center;
+    min-width: 75px;
+    max-width: 150px;
+    background-color: #434343;
+    color: white;
+    transition: transform 0.3s;
+}
+
+.abno-card:hover {
+    transform: scale(1.15);
+    z-index: 5;
+}
+
+.abno-card-name {
+    font-size: .9em;
+    padding: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.abno-risk-box {
+    text-align: center;
+    font-size: .8em;
+    padding: 1.2%;
+    color: black;
+}
+
+.risk-box-ZAYIN {
+    background-color: var(--zayin);
+}
+.risk-box-TETH {
+    background-color: var(--teth);
+}
+.risk-box-HE {
+    background-color: var(--he);
+}
+.risk-box-WAW {
+    background-color: var(--waw);
+}
+.risk-box-ALEPH {
+    background-color: var(--aleph);
+}
+.risk-box-UNKNOWN {
+    background-color: var(--unknown);
+}
+
+.abno-card-seperator {
+    border-color: black!important;
+    background-color: black!important;
+    height: 1px!important;
+    max-height: 1px!important;
+    opacity: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.col-xs-8r,
+.col-sm-8r,
+.col-md-8r,
+.col-lg-8r {
+    position: relative;
+    min-height: 1px;
+}
+
+.col-xs-8r {
+    width: 12.5%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-8r {
+        width: 12.5%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-8r {
+        width: 12.5%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-8r {
+        width: 12.5%;
+        float: left;
+    }
+}
