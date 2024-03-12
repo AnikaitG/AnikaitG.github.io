@@ -36,11 +36,6 @@
     background-color: #7F7F7C;
 }
 
-.abno-card-row {
-    padding-top: .25%;
-    padding-bottom: .25%;
-}
-
 .abno-card-portrait {
     width: 100%;
     height: 100%;
@@ -63,7 +58,7 @@
 }
 
 .abno-card-name {
-    font-size: .9em;
+    font-size: .7em;
     padding: 1%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -71,7 +66,7 @@
 
 .abno-risk-box {
     text-align: center;
-    font-size: .8em;
+    font-size: .6em;
     padding: 1.2%;
     color: black;
 }
@@ -105,23 +100,23 @@
     margin: 0;
 }
 
-.col-xs-8r,
-.col-sm-8r,
-.col-md-8r,
-.col-lg-8r {
+.col-md-8r {
     position: relative;
     min-height: 1px;
-}
-
-.col-xs-8r {
-    width: 12.5%;
-    float: left;
 }
 
 @media (min-width: 768px) {
     .col-sm-8r {
         width: 12.5%;
         float: left;
+    }
+
+    .abno-card-name {
+        font-size: .9em;
+    }
+    
+    .abno-risk-box {
+        font-size: .8em;
     }
 }
 
@@ -130,11 +125,12 @@
         width: 12.5%;
         float: left;
     }
-}
 
-@media (min-width: 1200px) {
-    .col-lg-8r {
-        width: 12.5%;
-        float: left;
+    .abno-card-name {
+        font-size: .9em;
+    }
+    
+    .abno-risk-box {
+        font-size: .8em;
     }
 }
