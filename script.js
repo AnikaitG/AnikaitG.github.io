@@ -38,14 +38,15 @@ function listAbnos(data) {
 
         abnoRes += `<div class="col-md-8r col-sm-3 col-3 mb-1 abno-card-col">
                         <div class="card abno-card h-100">
-                        <div class="bg-image hover-overlay">
-                            <img src="images/portraits/${abnoObj.name} Portrait.png" class="img-fluid abno-card-portrait" />
-                        </div>
-                        <hr class="abno-card-seperator">
-                        <span class="abno-risk-box risk-box-${abnoObj.risk}">${abnoObj.risk}</span>
-                        <hr class="abno-card-seperator">
-                        <div class="card-body abno-card-name">${abnoObj.name}</div>
-                        </div>        
+                            <div class="bg-image hover-overlay">
+                                <img src="images/portraits/${abnoObj.name} Portrait.png" class="abno-card-portrait" />
+                            </div>
+                            <hr class="abno-card-seperator">
+                            <span class="abno-risk-box risk-box-${abnoObj.risk}">${abnoObj.risk}</span>
+                            <hr class="abno-card-seperator">
+                            <div class="card-body abno-card-name">${abnoObj.name}</div>
+                            <a href="profile.html?abno=${abnoObj.name}" class="stretched-link"></a>       
+                        </div>                         
                     </div>`;
         
         if(count == colNum) {

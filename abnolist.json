@@ -962,7 +962,14 @@
         "name": "Spiral of Contempt",
         "risk": "WAW",
         "code": "T-03-20-04",
-        "ego": "Contempt",
+        "ego": "???",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Bound King",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "???",
         "games": ["LCB"]
     },
     {
@@ -1254,13 +1261,6 @@
     },
     {
         "name": "Sleeping Bag of Olden Days",
-        "risk": "UNKNOWN",
-        "code": "?-??-??-??",
-        "ego": "???",
-        "games": ["LCB"]
-    },
-    {
-        "name": "Bound King",
         "risk": "UNKNOWN",
         "code": "?-??-??-??",
         "ego": "???",
