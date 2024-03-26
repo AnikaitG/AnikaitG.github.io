@@ -966,10 +966,24 @@
         "games": ["LCB"]
     },
     {
+        "name": "Dreaming Electric Sheep",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "Electric Screaming",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Portrait of a Certain Day",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "Bygone Days",
+        "games": ["LCB"]
+    },
+    {
         "name": "Bound King",
         "risk": "UNKNOWN",
         "code": "?-??-??-??",
-        "ego": "???",
+        "ego": "Binds",
         "games": ["LCB"]
     },
     {
@@ -1058,13 +1072,6 @@
     },
     {
         "name": "Spider of Marriage",
-        "risk": "UNKNOWN",
-        "code": "?-??-??-??",
-        "ego": "???",
-        "games": ["LCB"]
-    },
-    {
-        "name": "Dreaming Electric Sheep",
         "risk": "UNKNOWN",
         "code": "?-??-??-??",
         "ego": "???",
@@ -1268,13 +1275,6 @@
     },
     {
         "name": "Handshake of Handshakes",
-        "risk": "UNKNOWN",
-        "code": "?-??-??-??",
-        "ego": "???",
-        "games": ["LCB"]
-    },
-    {
-        "name": "Portrait of a Certain Day",
         "risk": "UNKNOWN",
         "code": "?-??-??-??",
         "ego": "???",
