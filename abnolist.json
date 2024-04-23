@@ -966,13 +966,6 @@
         "games": ["LCB"]
     },
     {
-        "name": "Dreaming Electric Sheep",
-        "risk": "UNKNOWN",
-        "code": "?-??-??-??",
-        "ego": "Electric Screaming",
-        "games": ["LCB"]
-    },
-    {
         "name": "Portrait of a Certain Day",
         "risk": "UNKNOWN",
         "code": "?-??-??-??",
@@ -980,7 +973,14 @@
         "games": ["LCB"]
     },
     {
-        "name": "Bound King",
+        "name": "Dreaming Electric Sheep",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "Electric Screaming",
+        "games": ["LCB"]
+    },
+    {
+        "name": "The King in Binds",
         "risk": "UNKNOWN",
         "code": "?-??-??-??",
         "ego": "Binds",
