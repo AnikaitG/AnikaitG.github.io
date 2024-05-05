@@ -25,7 +25,7 @@
         "risk": "ZAYIN",
         "code": "F-04-83",
         "ego": "Wingbeat",
-        "games": ["LC","LoR"]
+        "games": ["LC","LoR","LCB"]
     },
     {
         "name": "Don't Touch Me",
@@ -228,7 +228,7 @@
         "risk": "HE",
         "code": "O-04-08",
         "ego": "Sanguine Desire",
-        "games": ["LC","LoR"]
+        "games": ["LC","LoR", "LCB"]
     },
     {
         "name": "Child of the Galaxy",

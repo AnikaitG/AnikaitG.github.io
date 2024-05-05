@@ -1,0 +1,107 @@
+:root {
+    --zayin: #21F900;
+    --teth: #1AA1FF;
+    --he: #FEF900;
+    --waw: #7A30F1;
+    --aleph: #FF0000;
+    --unknown: #5C5A5A;
+
+    --red: #CD2744;
+    --white: #F0EBBF;
+    --black: #A562AF;
+    --pale: #3FCDBD;
+
+    --good: #008A39;
+    --normal: #E98800;
+    --bad: #D74E50;
+
+    --warning1: #FFBC00;
+    --warning2: #FF5100;
+    --warning3: #FF0000;
+
+    --enk: #1FFFAE;
+
+    --light: #FFFBCE;
+
+    --dmgroll: #F4501A;
+    --defroll: #0CBAFF;
+    --ctrroll: #F5C400; 
+    
+    --lorkeyword: #EFD521;
+    --loroffense: #FFB7CE;
+    --lordefense: #A1E3EE;
+
+    --paperback: #93DA8A;
+    --hardcover: #5A93E8;
+    --limited: #9143E9;
+    --workofart: #EB8001;
+
+    --Awakening: #31FFAA;
+    --Breakdown: #DE005D;
+
+    --generalfloor: #F7FBF7;
+    --histfloor: #E7BE7B;
+    --techfloor: #6A6DC5;
+    --litfloor: #FF9E21;
+    --artfloor: #6BFF73;
+    --natscifloor: #E7B64A;
+    --langfloor: #AD3031;
+    --socscifloor: #4AA2E1;
+    --philofloor: #BC8414;
+    --religionfloor: #9C9B9C;
+
+    --SE-b: #fac400;
+    --SE-d: #e20000;
+    --SE-r: #9f6a3a;
+}
+
+.paperback {
+    color: var(--paperback);
+}
+.hardcover {
+    color: var(--hardcover);
+}
+.limited {
+    color: var(--limited);
+}
+.workofart {
+    color: var(--workofart);
+}
+
+.lor-keyword {
+    color: var(--lorkeyword);
+}
+.lor-offtext {
+    color: var(--loroffense);
+}
+.lor-deftext {
+    color: var(--lordefense);
+}
+
+.icon-image {
+    width: 1em;
+    vertical-align: -15%;
+}
+.instinct-icon {
+    width: 1.35em;
+    vertical-align: -30%;
+}
+.enk-icon {
+    vertical-align: 0%;
+}
+.card-type-icon {
+    width: 1.35em;
+    margin-right: -0.25%;
+}
+.floor-icon {
+    width: 1.85em;
+    margin: -0.25%;
+    vertical-align: -25%;
+}
+.light-icon {
+    vertical-align: -5%;
+}
+.card-range-icon {
+    width: 1.5em;
+    vertical-align: -20%;
+}

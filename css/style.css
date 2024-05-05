@@ -1,12 +1,3 @@
-:root {
-    --zayin: #21F900;
-    --teth: #1AA1FF;
-    --he: #FEF900;
-    --waw: #7A30F1;
-    --aleph: #FF0000;
-    --unknown: #5C5A5A;
-}
-
 body {
     background-color: #7F7F7C;
 }
@@ -93,10 +84,9 @@ body {
 }
 
 .abno-card-seperator {
-    border-color: black!important;
-    background-color: black!important;
-    height: 1px!important;
-    max-height: 1px!important;
+    border: none;
+    border-top: 1px solid black;
+    height: 0!important;
     opacity: 1;
     padding: 0;
     margin: 0;
@@ -105,67 +95,6 @@ body {
 .col-md-8r {
     position: relative;
     min-height: 1px;
-}
-
-#profile-sidebar {
-    padding: 1%;
-    text-align: center;
-}
-
-#prof-sidebar-name {
-    font-size: 1.5em;
-}
-
-.prof-sidebar-img {
-    height: 120px;
-    width: 120px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid black;
-}
-
-#prof-sidebar-risk {
-    height: 30px;
-    width: auto;
-}
-
-#abno-info-page {
-    margin-top: 6%;
-    padding: 4%;
-    background-color: #4C4235;
-    color: #E0E0DF;
-    border-radius: 5px;
-    position: relative;
-    border: 2px solid black;
-}
-
-#title-header {
-    position: absolute;
-    color: black;
-    font-family: 'Norwester', sans-serif;
-    font-size: 1em;
-    border-radius: 15px;
-    z-index: 2;
-    top: -25px;
-    left: 0;
-    right: 0;
-    width: fit-content;
-    margin: auto;
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border: 2px solid black;
-}
-
-.abno-quote {
-    text-align: center;
-    font-style: italic;
-}
-
-.gallery-img {
-    max-width: 100%;
-    max-height: 100px;
 }
 
 @media (min-width: 768px) {
@@ -195,14 +124,5 @@ body {
     
     .abno-risk-box {
         font-size: .8em;
-    }
-
-    #title-header {
-        font-size: 2em;
-    }
-
-    .prof-sidebar-img {
-        height: 220px;
-        width: 220px;
     }
 }

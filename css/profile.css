@@ -1,0 +1,304 @@
+/*------------SIDEBAR------------*/
+#profile-sidebar {
+    padding: 1%;
+    text-align: center;
+}
+
+#prof-sidebar-name {
+    font-size: 1.5em;
+}
+
+.prof-sidebar-img {
+    height: 120px;
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+#prof-sidebar-risk {
+    height: 30px;
+    width: auto;
+}
+
+/*------------MAIN PAGE------------*/
+
+#abno-info-page {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding: 4%;
+    background-color: #4C4235;
+    color: #E0E0DF;
+    border-radius: 5px;
+    position: relative;
+    border: 2px solid black;
+}
+
+#title-header {
+    position: absolute;
+    color: black;
+    font-family: 'Norwester', sans-serif;
+    font-size: 1.2em;
+    border-radius: 15px;
+    z-index: 2;
+    top: -20px;
+    left: 0;
+    right: 0;
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid black;
+}
+
+/*------------HEADERS------------*/
+
+.profile-header {
+    font-size: calc(1.5rem + .6vw);
+}
+
+.profile-subheader {
+    text-decoration: underline;
+}
+
+.header-seperator {
+    margin-top: 0.5em;
+}
+
+.abno-quote {
+    text-align: center;
+    font-style: italic;
+}
+
+/*------------ABNO STORY------------*/
+
+.abno-story {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow-y: auto;
+    max-height: 450px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: #28231C;
+    color: #d1d1b5;
+}
+
+.abno-story::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #555555;
+}
+.abno-story::-webkit-scrollbar {
+    width: 5px;
+}
+.abno-story::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #928c6e;
+}
+.abno-story::-webkit-scrollbar-thumb:hover {
+    background: #777056;
+}
+
+/*------------IMAGES------------*/
+
+.page-img-container {
+    float: right;
+}
+
+.page-img {
+    max-width: 100%;
+    max-height: 250px;
+}
+
+.gallery-img {
+    max-width: 100%;
+    max-height: 100px;
+}
+
+/*------------SLIDESHOW------------*/
+
+.slideshow-container {
+    position: relative;
+}
+
+.notfirst {
+    display: none;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    opacity: 0;
+}
+.prev {
+    left: 0;
+}
+.next {
+    right: 0;
+}
+.slideshow-container:hover .prev,
+.slideshow-container:hover .next {
+    opacity: 1;
+}
+
+.caption {
+    text-align: center;
+    font-style: italic;
+    font-size: .8em;
+}
+
+/*------------COLLAPSIBLE------------*/
+
+.collapsible-btn:after {
+    content: '\002B';
+    float: right;
+}
+.active:after {
+    content: "\2212";
+}
+
+.collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.expanded-content {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+/*------------LOR DECKS------------*/
+
+.deck {
+    margin-top: 5px;
+}
+
+.deck-header {
+    background-color: #332A1F;
+    color: white;
+    cursor: pointer;
+    padding: 10px 25px;
+    text-align: left;
+    width: 100%;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.deck-header:hover {
+    background-color: #2B231A;
+}
+
+.deck-content {
+    background-color: #5B5040;
+}
+
+.enemy-info {
+    padding: 0px;
+    padding-right: 10px;
+}
+
+.enemy-info-sprite-container {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.enemy-info-sprite {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.enemy-info-separator {
+    border: none;
+    border-top: 2px solid #7C7468;
+    opacity: 1;
+    height: 0!important;
+}
+
+.passive-list {
+    overflow-y: auto;
+    max-height: 150px;
+}
+
+.lor-card-container {
+    border-right: 2px solid #7C7468;
+    padding-left: 24px;
+    overflow-y: auto;
+    max-height: 465px;
+}
+
+.lor-card {
+    padding-top: 5px;
+    display: flex;
+}
+
+.lor-card-img, .lor-card-img-container {
+    width: 132px;
+    height: 100px;
+}
+
+.lor-card-img {
+    border: 1px solid black;
+}
+
+.lor-card-details {
+    flex: 1;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+.lor-card-details-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lor-card-text {
+    font-size: .9em;
+}
+
+.lor-card-name {
+    font-weight: bold;
+}
+
+.deck-separator {
+    border: none;
+    border-top: 1px solid #7C7468;
+    opacity: 1;
+    height: 0!important;
+}
+
+.lor-card-container::-webkit-scrollbar-track, .passive-list::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #3e3e3e;
+}
+.lor-card-container::-webkit-scrollbar, .passive-list::-webkit-scrollbar {
+    width: 7px;
+}
+.lor-card-container::-webkit-scrollbar-thumb, .passive-list::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #332A1F;
+}
+.lor-card-container::-webkit-scrollbar-thumb:hover, .passive-list::-webkit-scrollbar-thumb:hover {
+    background: #2B231A;
+}
+
+@media (min-width: 992px) {
+        #title-header {
+        font-size: 2em;
+        top: -25px;
+    }
+
+    .prof-sidebar-img {
+        height: 220px;
+        width: 220px;
+    }
+}
