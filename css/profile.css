@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'AritaBuri';
+    src: url('fonts/Arita-buriM.otf') format('opentype');
+}
+
 /*------------SIDEBAR------------*/
 #profile-sidebar {
     padding: 1%;
@@ -99,6 +104,19 @@
 }
 .abno-story::-webkit-scrollbar-thumb:hover {
     background: #777056;
+}
+
+/*------------WORK QUOTES------------*/
+
+.work-quotes {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    max-height: 200px;
+}
+
+.quote-cond {
+    font-style: italic;
+    color: #d1d1b563;
 }
 
 /*------------IMAGES------------*/
@@ -229,43 +247,43 @@
     max-height: 150px;
 }
 
-.lor-card-container {
+.lor-page-container {
     border-right: 2px solid #7C7468;
     padding-left: 24px;
     overflow-y: auto;
     max-height: 465px;
 }
 
-.lor-card {
+.lor-page {
     padding-top: 5px;
     display: flex;
 }
 
-.lor-card-img, .lor-card-img-container {
+.lor-page-img, .lor-page-img-container {
     width: 132px;
     height: 100px;
 }
 
-.lor-card-img {
+.lor-page-img {
     border: 1px solid black;
 }
 
-.lor-card-details {
+.lor-page-details {
     flex: 1;
     padding-top: 0px;
     padding-left: 10px;
 }
 
-.lor-card-details-header {
+.lor-page-details-header {
     display: flex;
     justify-content: space-between;
 }
 
-.lor-card-text {
+.lor-page-text {
     font-size: .9em;
 }
 
-.lor-card-name {
+.lor-page-name {
     font-weight: bold;
 }
 
@@ -276,19 +294,80 @@
     height: 0!important;
 }
 
-.lor-card-container::-webkit-scrollbar-track, .passive-list::-webkit-scrollbar-track {
+.lor-page-container::-webkit-scrollbar-track, .passive-list::-webkit-scrollbar-track {
     border-radius: 5px;
     background-color: #3e3e3e;
 }
-.lor-card-container::-webkit-scrollbar, .passive-list::-webkit-scrollbar {
+.lor-page-container::-webkit-scrollbar, .passive-list::-webkit-scrollbar {
     width: 7px;
 }
-.lor-card-container::-webkit-scrollbar-thumb, .passive-list::-webkit-scrollbar-thumb {
+.lor-page-container::-webkit-scrollbar-thumb, .passive-list::-webkit-scrollbar-thumb {
     border-radius: 5px;
     background-color: #332A1F;
 }
-.lor-card-container::-webkit-scrollbar-thumb:hover, .passive-list::-webkit-scrollbar-thumb:hover {
+.lor-page-container::-webkit-scrollbar-thumb:hover, .passive-list::-webkit-scrollbar-thumb:hover {
     background: #2B231A;
+}
+
+/*------------LOR ABNO PAGES------------*/
+
+.abno-pages {
+    border-collapse: collapse;
+    border-style: hidden;
+    width: 100%;
+}
+
+.abno-pages td {
+    border: 1px solid #7C7468;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.abno-page-quote {
+    font-style: italic;
+    color: #d2d2cd63;
+}
+
+.awakening-bg {
+    background-color: #254325;
+}
+.breakdown-bg {
+    background-color: #491F15;
+}
+
+.abno-page-name {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.abno-page-quote-list {
+    margin-bottom: 0;
+    padding-left: 15px;
+    font-size: .9em;
+}
+
+/*------------LOR BATTLE QUOTES------------*/
+
+.battle-quotes {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    max-height: 310px;
+}
+
+.quote-cond {
+    font-style: italic;
+    color: #d1d1b563;
+}
+
+.red-text {
+    font-family: 'AritaBuri';
+    color: #AF212D;
+    text-shadow: 
+        -1px -1px 0 #7D0511,  
+         1px -1px 0 #7D0511,
+        -1px  1px 0 #7D0511,
+         1px  1px 0 #7D0511;
 }
 
 @media (min-width: 992px) {
