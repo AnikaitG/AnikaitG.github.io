@@ -81,6 +81,7 @@
 
 .abno-story {
     padding: 10px;
+    padding-bottom: 0;
     border: 2px solid black;
     border-radius: 5px;
     overflow-y: auto;
@@ -117,6 +118,53 @@
 .quote-cond {
     font-style: italic;
     color: #d1d1b563;
+}
+
+/*------------LC EGO GEAR------------*/
+
+.ego-gear-header {
+    background-color: #332A1F;
+    color: white;
+    cursor: pointer;
+    padding: 10px 25px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.ego-gear-header:hover {
+    background-color: #2B231A;
+}
+
+.ego-gear-content {
+    background-color: #5B5040;
+}
+
+.ego-gear-table {
+    border-collapse: collapse;
+    border-style: hidden;
+    width: 100%;
+}
+
+.ego-gear-table td {
+    border: 1px solid #7C7468;
+    padding: 0px;
+    text-align: center;
+}
+
+.ego-weapon-img, .ego-suit-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.ego-weapon-img {
+    max-width: 200px;
+    height: auto;
+}
+
+.ego-gear-desc {
+    font-size: .9em;
 }
 
 /*------------IMAGES------------*/
@@ -183,9 +231,12 @@
 }
 
 .collapsible-content {
-    max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+}
+
+.collapsible-content:not(.expanded-content) {
+    max-height: 0;
 }
 
 .expanded-content {
@@ -245,6 +296,7 @@
 .passive-list {
     overflow-y: auto;
     max-height: 150px;
+    font-size: .9em;
 }
 
 .lor-page-container {

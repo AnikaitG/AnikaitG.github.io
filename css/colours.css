@@ -10,6 +10,7 @@
     --white: #F0EBBF;
     --black: #A562AF;
     --pale: #3FCDBD;
+    --special: #FFD140;
 
     --good: #008A39;
     --normal: #E98800;
@@ -55,6 +56,10 @@
     --SE-r: #9f6a3a;
 }
 
+.special-work {
+    color: var(--special);
+}
+
 .paperback {
     color: var(--paperback);
 }
@@ -83,8 +88,8 @@
     vertical-align: -15%;
 }
 .instinct-icon {
-    width: 1.35em;
-    vertical-align: -30%;
+    width: 1.51em;
+    vertical-align: -15%;
 }
 .enk-icon {
     vertical-align: 0%;

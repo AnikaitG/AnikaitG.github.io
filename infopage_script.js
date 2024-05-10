@@ -60,6 +60,17 @@ function insertAbnoName(abnoName) {
         content = content.replace(/{Attachment}/g, `<img class="icon-image" src="../images/icons/Attachment.png"> <span style="color: var(--black);">Attachment</span>`);
         content = content.replace(/{Repression}/g, `<img class="icon-image" src="../images/icons/Repression.png"> <span style="color: var(--pale);">Repression</span>`);
 
+        content = content.replace(/{Request}/g, `<img class="icon-image" src="../images/icons/Request.png"> <span class="special-wr">Request</span>`);
+        content = content.replace(/{Sacrifice}/g, `<img class="icon-image" src="../images/icons/Sacrifice.png"> <span class="special-wr">Sacrifice</span>`);
+        content = content.replace(/{Confession}/g, `<img class="icon-image" src="../images/icons/Confession.png"> <span class="special-wr">Confession</span>`);
+        content = content.replace(/{Protection}/g, `<img class="icon-image" src="../images/icons/Protection.png"> <span class="special-wr">Protection</span>`);
+        content = content.replace(/{Performance}/g, `<img class="icon-image" src="../images/icons/Performance.png"> <span class="special-wr">Performance</span>`);
+
+        content = content.replace(/{Fortitude}/g, `<img class="icon-image" src="../images/icons/Fortitude.png"> <span style="color: var(--red);">Fortitude</span>`);
+        content = content.replace(/{Prudence}/g, `<img class="icon-image" src="../images/icons/Prudence.png"> <span style="color: var(--white);">Prudence</span>`);
+        content = content.replace(/{Temperance}/g, `<img class="icon-image" src="../images/icons/Temperance.png"> <span style="color: var(--black);">Temperance</span>`);
+        content = content.replace(/{Justice}/g, `<img class="icon-image" src="../images/icons/Justice.png"> <span style="color: var(--pale);">Justice</span>`);
+
         content = content.replace(/{Good}/g, `<img class="icon-image" src="../images/icons/Good.png"> <span style="color: var(--good);">Good</span>`);
         content = content.replace(/{Normal}/g, `<img class="icon-image" src="../images/icons/Normal.png"> <span style="color: var(--normal);">Normal</span>`);
         content = content.replace(/{Bad}/g, `<img class="icon-image" src="../images/icons/Bad.png"> <span style="color: var(--bad);">Bad</span>`);
@@ -90,13 +101,12 @@ function insertAbnoName(abnoName) {
 
         content = content.replace(/{Melee}/g, `<img class="icon-image card-range-icon" src="../images/icons/Melee.png">`);
         content = content.replace(/{Ranged}/g, `<img class="icon-image card-range-icon" src="../images/icons/Ranged.png">`);
-        content = content.replace(/{Mass}/g, `<img class="icon-image card-range-icon" src="../images/icons/Mass.png">`);
+        content = content.replace(/{Mass Attack}/g, `<img class="icon-image card-range-icon" src="../images/icons/Mass Attack.png">`);
 
-        content = content.replace(/{Slash Dice}/g, `<img class="icon-image" src="../images/icons/Slash Dice.png">`);
-        content = content.replace(/{Pierce Dice}/g, `<img class="icon-image" src="../images/icons/Pierce Dice.png">`);
-        content = content.replace(/{Blunt Dice}/g, `<img class="icon-image" src="../images/icons/Blunt Dice.png">`);
-        content = content.replace(/{Block Dice}/g, `<img class="icon-image" src="../images/icons/Block Dice.png">`);
-        content = content.replace(/{Evade Dice}/g, `<img class="icon-image" src="../images/icons/Evade Dice.png">`);
+        var dice = /{(Slash|Pierce|Blunt|Block|Evade|Counter Slash|Counter Pierce|Counter Blunt|Counter Block|Counter Evade)\sDice}/g;
+        content = content.replace(dice, function(match, type) {
+            return `<img class="icon-image" src="../images/icons/${type} Dice.png">`;
+        })
 
         var diceroll = /{(dmg|def|ctr)roll\s([^}]+)\s([^}]+)}/g;
         content = content.replace(diceroll, function(match, type, lower, upper) {
@@ -131,12 +141,11 @@ function showSlides(n, grp) {
 function toggleCollapse(button) {
     button.classList.toggle("active");
     var content = button.nextElementSibling;
-    if (content.style.maxHeight) {
+    if (content.classList.contains("expanded-content")) {
       content.style.maxHeight = null;
       content.classList.remove("expanded-content");
     } else {
       content.style.maxHeight = content.scrollHeight + "px";
       content.classList.add("expanded-content");
     }
-  }
-
+}

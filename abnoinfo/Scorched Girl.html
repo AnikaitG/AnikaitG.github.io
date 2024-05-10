@@ -19,7 +19,7 @@
           <div class="caption">{abnoName} in<br>Lobotomy Corporation</div>
         </div>
         <div class="slide notfirst slides0">
-          <a class="display-img" href="../images/abnos/Scorched Girl/LC Breach.png" data-lightbox="LC" data-title="Breached Containment"><img class="page-img" src="../images/abnos/Scorched Girl/LC Breach.png"/></a>
+          <a class="display-img" href="../images/abnos/Scorched Girl/LC Breached.png" data-lightbox="LC" data-title="Breached Containment"><img class="page-img" src="../images/abnos/Scorched Girl/LC Breached.png"/></a>
           <div class="caption">{abnoName} after<br>breaching containment</div>
         </div>
         <a class="prev" onclick="nextSlide(-1,0)">&#10094;</a>
@@ -64,6 +64,26 @@
         <li>"Ashes scatter around the Containment Unit. Half of the match still seems unburnt."</li>
         <li>"There’s no one inside the fire, but the girl’s eyes gleam as if it sees someone."</li>
         <li>"Only the ashes of the burnt match scatter over the girl."</li>
+      </div><br>
+
+      <h5 class="profile-subheader">E.G.O</h5>
+      <div class="ego-gear-container">
+        <button class="ego-gear-header collapsible-btn active" onclick="toggleCollapse(this)">Fourth Match Flame</button>
+        <div class="ego-gear-content collapsible-content expanded-content">
+          <table class="ego-gear-table">
+            <tr>
+              <td class="ego-weapon">
+                <a class="display-img" href="../images/abnos/Scorched Girl/EGO/LC Weapon.png" data-lightbox="lcego" data-title="Fourth Match Flame<br>(Weapon)"><img class="ego-weapon-img" src="../images/abnos/Scorched Girl/EGO/LC Weapon.png"/></a>
+              </td>
+              <td class="ego-suit">
+                <a class="display-img" href="../images/abnos/Scorched Girl/EGO/LC Suit.png" data-lightbox="lcego" data-title="Fourth Match Flame<br>(Suit)"><img class="ego-suit-img" src="../images/abnos/Scorched Girl/EGO/LC Suit.png"/></a>
+              </td>
+              <td class="ego-gear-desc">
+                <p>"The fire roars and burns like the first flame.<br>The match's fire will not go out until it has burned away all happiness, warmth, and all other good things of the world.</p><p>Those who are burned will feel infinite hatred towards the world until the last flicker of their consciousness is snuffed out."</p>
+              </td>
+            </tr>
+          </table>
+        </div>
       </div>
     </section><br>
 
@@ -93,7 +113,7 @@
             <div class="col-7 lor-page-container">
               <div class="lor-page">
                 <div class="col-2 lor-page-img-container">
-                  <a class="display-img" href="../images/abnos/Scorched Girl/LoR Footfalls.png" data-lightbox="deck1" data-title="Fourth Match Flame"><img class="lor-page-img" src="../images/abnos/Scorched Girl/LoR Footfalls.png"/></a>
+                  <a class="display-img" href="../images/abnos/Scorched Girl/LoR Footfalls.png" data-lightbox="deck0" data-title="Fourth Match Flame"><img class="lor-page-img" src="../images/abnos/Scorched Girl/LoR Footfalls.png"/></a>
                 </div>
                 <div class="col-10 lor-page-details">
                   <div class="lor-page-details-header">
@@ -199,25 +219,9 @@
       </div>
       
       <div class="deck abno-pages-container">
-        <button class="deck-header collapsible-btn" onclick="toggleCollapse(this)">Abnormality Pages</button>
-        <div class="deck-content collapsible-content">
+        <button class="deck-header collapsible-btn active" onclick="toggleCollapse(this)">Abnormality Pages</button>
+        <div class="deck-content collapsible-content expanded-content">
           <table class="abno-pages">
-            <tr class="breakdown-bg">
-              <td class="abno-page-img">
-                <div class="lor-page-img-container">
-                  <a class="display-img" href="../images/abnos/Scorched Girl/LoR Footfalls.png" data-lightbox="abnopages" data-title="Footfalls"><img class="lor-page-img" src="../images/abnos/Scorched Girl/LoR Footfalls.png"/></a><br>
-                  <span class="abno-page-name">Footfalls</span>
-                </div>
-              </td>
-              <td>[All Allies]<br>When a librarian’s HP is at 20% or lower, deal 30% of the target’s Max HP as damage and inflict 1-3 {LoR SE d Burn} upon approaching them, then die.<br><span class="abno-page-quote">I am coming to you. You, who will be reduced to ashes like me.</span></td>
-              <td>
-                <ul class="abno-page-quote-list">
-                  <li>If I must perish, then join me.</li>
-                  <li>It’s just too sad to die alone… You know this feeling well, don’t you?</li>
-                  <li>Is there anything I can do, me, a scorched dark child?</li>
-                </ul>
-              </td>
-            </tr>
             <tr class="awakening-bg">
               <td class="abno-page-img">
                 <div class="lor-page-img-container">
@@ -231,6 +235,22 @@
                   <li>I know very well that my scorched body can’t ever return to normal.</li>
                   <li>It’s scary to turn to ash… But I don’t want this fire to go out.</li>
                   <li>Maybe I’ll freely soar through the sky as ash one day.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr class="breakdown-bg">
+              <td class="abno-page-img">
+                <div class="lor-page-img-container">
+                  <a class="display-img" href="../images/abnos/Scorched Girl/LoR Footfalls.png" data-lightbox="abnopages" data-title="Footfalls"><img class="lor-page-img" src="../images/abnos/Scorched Girl/LoR Footfalls.png"/></a><br>
+                  <span class="abno-page-name">Footfalls</span>
+                </div>
+              </td>
+              <td>[All Allies]<br>When a librarian’s HP is at 20% or lower, deal 30% of the target’s Max HP as damage and inflict 1-3 {LoR SE d Burn} upon approaching them, then die.<br><span class="abno-page-quote">I am coming to you. You, who will be reduced to ashes like me.</span></td>
+              <td>
+                <ul class="abno-page-quote-list">
+                  <li>If I must perish, then join me.</li>
+                  <li>It’s just too sad to die alone… You know this feeling well, don’t you?</li>
+                  <li>Is there anything I can do, me, a scorched dark child?</li>
                 </ul>
               </td>
             </tr>
@@ -275,11 +295,22 @@
       <h3 class="profile-header">Gallery</h3>
       <hr class="header-seperator">
       <div class="abno-gallery">
-        <a class="display-img" href="../images/abnos/Scorched Girl/LCB EGO 1.png" data-lightbox="LCB" data-title="E.G.O"><img class="gallery-img" src="../images/abnos/Scorched Girl/LCB EGO 1.png"/></a>
-        <a class="display-img" href="../images/abnos/Scorched Girl/LCB EGO 2.png" data-lightbox="LCB" data-title="E.G.O"><img class="gallery-img" src="../images/abnos/Scorched Girl/LCB EGO 2.png"/></a>
-        <a class="display-img" href="../images/abnos/Scorched Girl/LCB EGO 3.png" data-lightbox="LCB" data-title="E.G.O"><img class="gallery-img" src="../images/abnos/Scorched Girl/LCB EGO 3.png"/></a>
-        <a class="display-img" href="../images/abnos/Scorched Girl/LCB BG 1.png" data-lightbox="LCB" data-title="E.G.O Background"><img class="gallery-img" src="../images/abnos/Scorched Girl/LCB BG 1.png"/></a>
-        <a class="display-img" href="../images/abnos/Scorched Girl/LCB BG 2.png" data-lightbox="LCB" data-title="E.G.O Background"><img class="gallery-img" src="../images/abnos/Scorched Girl/LCB BG 2.png"/></a>
+        <a class="display-img" href="../images/abnos/Scorched Girl/LC Idle.png" data-lightbox="gallery" data-title="Idle Sprite<br>(Lobotomy Corporation)"><img class="gallery-img" src="../images/abnos/Scorched Girl/LC Idle.png"/></a>
+        <a class="display-img" href="../images/abnos/Scorched Girl/LC Breached.png" data-lightbox="gallery" data-title="Breaching Sprite<br>(Lobotomy Corporation)"><img class="gallery-img" src="../images/abnos/Scorched Girl/LC Breached.png"/></a>
+        <a class="display-img" href="../images/abnos/Scorched Girl/LC Core.png" data-lightbox="gallery" data-title="Suppressed Core<br>(Lobotomy Corporation)"><img class="gallery-img" src="../images/abnos/Scorched Girl/LC Core.png"/></a>
+        <a class="display-img" href="../images/abnos/Scorched Girl/LoR Idle.png" data-lightbox="gallery" data-title="Idle Sprite<br>(Library of Ruina)"><img class="gallery-img" src="../images/abnos/Scorched Girl/LoR Idle.png"/></a>
+        <a class="display-img" href="../images/abnos/Scorched Girl/LCB EGO 1.png" data-lightbox="gallery" data-title="E.G.O Art<br>(Limbus Company)"><img class="gallery-img" src="../images/abnos/Scorched Girl/LCB EGO 1.png"/></a>
+        <a class="display-img" href="../images/abnos/Scorched Girl/LCB EGO 2.png" data-lightbox="gallery" data-title="E.G.O Art<br>(Limbus Company)"><img class="gallery-img" src="../images/abnos/Scorched Girl/LCB EGO 2.png"/></a>
+        <a class="display-img" href="../images/abnos/Scorched Girl/LCB EGO 3.png" data-lightbox="gallery" data-title="E.G.O Art<br>(Limbus Company)"><img class="gallery-img" src="../images/abnos/Scorched Girl/LCB EGO 3.png"/></a>
+        <a class="display-img" href="../images/abnos/Scorched Girl/LoR Ashes.png" data-lightbox="gallery" data-title="Ashes"><img class="gallery-img" src="../images/abnos/Scorched Girl/LoR Ashes.png"/></a>
+        <a class="display-img" href="../images/abnos/Scorched Girl/LoR Footfalls.png" data-lightbox="gallery" data-title="Footfalls"><img class="gallery-img" src="../images/abnos/Scorched Girl/LoR Footfalls.png"/></a>
+        <a class="display-img" href="../images/abnos/Scorched Girl/LoR Matchlight.png" data-lightbox="gallery" data-title="Matchlight"><img class="gallery-img" src="../images/abnos/Scorched Girl/LoR Matchlight.png"/></a>
+        <a class="display-img" href="../images/abnos/Scorched Girl/LoR EGO.png" data-lightbox="gallery" data-title="Fourth Match Flame"><img class="gallery-img" src="../images/abnos/Scorched Girl/LoR EGO.png"/></a>
+        <a class="display-img" href="../images/abnos/Scorched Girl/LoR BG.png" data-lightbox="gallery" data-title="Battle Background<br>(Library of Ruina)"><img class="gallery-img" src="../images/abnos/Scorched Girl/LoR BG.png"/></a>
+        <a class="display-img" href="../images/abnos/Scorched Girl/LCB BG 1.png" data-lightbox="gallery" data-title="E.G.O Background<br>(Limbus Company)"><img class="gallery-img" src="../images/abnos/Scorched Girl/LCB BG 1.png"/></a>
+        <a class="display-img" href="../images/abnos/Scorched Girl/LCB BG 2.png" data-lightbox="gallery" data-title="E.G.O Background<br>(Limbus Company)"><img class="gallery-img" src="../images/abnos/Scorched Girl/LCB BG 2.png"/></a>
+        <a class="display-img" href="../images/abnos/Scorched Girl/LC Portrait Full.gif" data-lightbox="gallery" data-title="Full Encyclopedia Portrait"><img class="gallery-img" src="../images/abnos/Scorched Girl/LC Portrait Full.gif"/></a>
+        <a class="display-img" href="../images/abnos/Scorched Girl/Concept Art.png" data-lightbox="gallery" data-title="Concept Art"><img class="gallery-img" src="../images/abnos/Scorched Girl/Concept Art.png"/></a>
       </div>
     </section>
 
