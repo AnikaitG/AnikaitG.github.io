@@ -128,6 +128,13 @@ function nextSlide(n, grp) {
     showSlides(slideIndex[grp] += n, grp);
 }
 
+function nextSlideMulti(n, grps) {
+    for (var i = 0; i < grps.length; i++) {
+        var grp = grps[i]
+        showSlides(slideIndex[grp] += n, grp);
+    }
+}
+
 function showSlides(n, grp) {
     let slides = document.getElementsByClassName(`slides${grp}`);
     if (n > slides.length) {slideIndex[grp] = 1}
