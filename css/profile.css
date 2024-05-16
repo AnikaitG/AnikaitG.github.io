@@ -322,12 +322,9 @@
     display: flex;
 }
 
-.lor-page-img, .lor-page-img-container {
+.lor-page-img {
     width: 132px;
     height: 100px;
-}
-
-.lor-page-img {
     border: 1px solid black;
 }
 
@@ -383,7 +380,10 @@
 .abno-pages td {
     border: 1px solid #7C7468;
     padding: 10px;
-    padding-bottom: 20px;
+}
+
+.abno-page-img {
+    width: 12%;
 }
 
 .abno-page-quote {
@@ -401,7 +401,6 @@
 .abno-page-name {
     display: block;
     text-align: center;
-    padding-bottom: 10px;
 }
 
 .abno-page-quote-list {
