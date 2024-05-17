@@ -328,6 +328,10 @@
     border: 1px solid black;
 }
 
+.lor-page-img-container {
+    width: 132px;
+}
+
 .lor-page-details {
     flex: 1;
     padding-top: 0px;
