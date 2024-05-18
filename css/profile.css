@@ -280,8 +280,7 @@
 }
 
 .enemy-info {
-    padding: 0px;
-    padding-right: 10px;
+    padding-left: 0px;
 }
 
 .enemy-info-sprite-container {
