@@ -171,6 +171,7 @@
 
 .page-img-container {
     float: right;
+    margin-left: 5px;
 }
 
 .page-img {
