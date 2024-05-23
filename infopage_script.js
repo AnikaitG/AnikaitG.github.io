@@ -113,6 +113,8 @@ function insertAbnoName(abnoName) {
             return `<span style="color: var(--${type}roll);">${lower}-${upper}</span>`;
         })
 
+        content = content.replace(/{Blank Dice}/g, `&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`);
+
         var statusEffect = /{(LoR|LCB)\sSE\s(d|b|r)\s([^}]+)}/g;
         content = content.replace(statusEffect, function(match, game, type, name) {
             return `<img class="icon-image" src="../images/icons/statuseffects/${game}/${name}.png"> <span style="color: var(--SE-${type});">${name}</span>`;
