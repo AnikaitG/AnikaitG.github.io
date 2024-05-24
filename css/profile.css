@@ -184,6 +184,10 @@
     max-height: 100px;
 }
 
+.bottom-gap {
+    margin-bottom: 10px;
+}
+
 /*------------SLIDESHOW------------*/
 
 .slideshow-container {
