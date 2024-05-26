@@ -3,6 +3,15 @@
     src: url('fonts/Arita-buriM.otf') format('opentype');
 }
 
+a {
+    text-decoration: none;
+    color: #B88D00;
+}
+
+a:hover {
+    color: #FECA1E
+}
+
 /*------------SIDEBAR------------*/
 #profile-sidebar {
     padding: 1%;

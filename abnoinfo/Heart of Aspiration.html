@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <p class="abno-quote"><q>Excessive aspiration will result in a frenzy.</q></p>
+
+    <section class="abno-intro">
+      <p><b>{abnoName}</b> appears as a disembodied heart with a dark red clot glowing inside of it. Despite being removed from a body, it still beats. When someone borrows the heart, the rate of its heartbeats will increase, and it will imbue the holder with increased vigour and strength.<br>
+      However, if the wielder is unable to meet their cravings or aspiration, they will be driven into a violent frenzy and attack anyone on sight.</p>
+    </section>
+
+    <section>
+      <h3 class="profile-header">Lobotomy Corporation</h3>
+      <hr class="header-seperator">
+
+      <div class="page-img-container">
+        <a class="display-img" href="../images/abnos/Heart of Aspiration/LC Idle.png" data-lightbox="LC" data-title="{abnoName}"><img class="page-img" src="../images/abnos/Heart of Aspiration/LC Idle.png"/></a>
+        <div class="caption">{abnoName} in<br>Lobotomy Corporation</div>
+      </div>
+
+      <p>{abnoName} is a Tool-type Abnormality and does not produce Enkephalin. An employee can borrow the heart to boost their HP and attack speed, making it useful for carrying out suppressions.<br>
+      If the employee is ordered to return the heart without attacking anything, or within 30 seconds of equipping it, they will panic. Still having the heart equipped, the panicked employee will begin indiscriminately attacking anyone they come across.</p>
+
+      <h5 class="profile-subheader">Method</h5>
+      <ul>
+        <li>Subjects who equip the {abnoName} will benefit from increased HP and attack speed.</li>
+        <li>After being ordered to return the {abnoName} without attacking, the wearer will lose their mind and have an increase in violent tendencies, attacking anything nearby.</li>
+        <li>If the subject is ordered to return the {abnoName} within 30 seconds after equipping it, it will lead to the same effect as above.</li>
+      </ul>
+
+      <h5 class="profile-subheader">Log</h5>
+      <ul>
+        <li>A heart without an owner. It still beats even after being removed from the body.</li>
+        <li>When equipped, the heartrate will double, raising both vigour and strength.</li>
+        <li>Excessive aspiration will result in a frenzy.</li>
+        <li>Employees who did not attack anyone or who returned the heart within 30 seconds were able to repeat mindless killings using their enhanced HP.</li>
+      </ul>
+    </section><br>
+
+    <section>
+      <h3 class="profile-header">Library of Ruina</h3>
+      <hr class="header-seperator">
+
+      <div class="page-img-container">
+        <a class="display-img" href="../images/abnos/Heart of Aspiration/LoR Idle.png" data-lightbox="LoRIdle" data-title="Idle"><img class="page-img" src="../images/abnos/Heart of Aspiration/LoR Idle.png"/></a>
+        <div class="caption">{abnoName} in Library of Ruina</div>
+      </div>
+
+      <p>{abnoName} appears as the second Abnormality on the {Floor of General Works}, unlocking {Breakdown Pulsation}, {Awakening Urging}, and {Breakdown Fervent Beats} after its suppression.</p>
+
+      <p>In its book, {abnoName} has a completely different appearance. It is much larger, taller than the average human, and has grown arms and legs. Its left arm is a long blue vein that it uses as a whip to attack opponents. It still lack eyes, but now has a mouth lined with several small teeth. The sound of it beating can be heard throught the battle.</p>
+
+      <p>It is also accompanied by two Lungs of Craving. While the heart stays on the defensive, only blocking incoming attacks and building up {Light}, the Lungs will provide the main source of damage. Once the {abnoName} builds up enough {Light}, it will use '<span class="hardcover">Beats of Aspiration</span>'. If this attack hits, it will grant 3 {LoR SE b Strength} and {LoR SE b Haste} to the Lungs. Its heartbeats will also double in speed and the screen will begin to rapidly pulse with the beats.</p>
+
+      <h5 class="profile-subheader">Decks & Pages</h5>
+
+      <div class="deck">
+        <button class="deck-header collapsible-btn" onclick="toggleCollapse(this)">{abnoName}'s Deck</button>
+        <div class="deck-content collapsible-content">
+          <div class="row">
+            <div class="col-7 lor-page-container">
+              <div class="lor-page">
+                <div class="col-2 lor-page-img-container">
+                  <a class="display-img" href="../images/abnos/Heart of Aspiration/LoR Urging.png" data-lightbox="deck0" data-title="Pulsation"><img class="lor-page-img" src="../images/abnos/Heart of Aspiration/LoR Urging.png"/></a>
+                </div>
+                <div class="col-10 lor-page-details">
+                  <div class="lor-page-details-header">
+                    <span class="lor-page-name hardcover">Pulsation</span>
+                    <span class="lor-page-stats">{Melee} | 0 {Light}</span>
+                  </div>
+                  <div class="lor-page-text">
+                    {Block Dice} {defroll 2 3} <br>
+                    {Block Dice} {defroll 2 3} <br>
+                    {Block Dice} {defroll 2 3}
+                  </div>
+                </div>
+              </div>
+              <hr class="deck-separator">
+              <div class="lor-page">
+                <div class="col-2 lor-page-img-container">
+                  <a class="display-img" href="../images/abnos/Heart of Aspiration/LoR Pulsation.png" data-lightbox="deck0" data-title="Beats of Aspiration"><img class="lor-page-img" src="../images/abnos/Heart of Aspiration/LoR Pulsation.png"/></a>
+                </div>
+                <div class="col-10 lor-page-details">
+                  <div class="lor-page-details-header">
+                    <span class="lor-page-name hardcover">Beats of Aspiration</span>
+                    <span class="lor-page-stats">{Melee} | 3 {Light}</span>
+                  </div>
+                  <div class="lor-page-text">
+                    <span class="lor-keyword">On Hit</span> Ally gains 3 {LoR SE b Strength} and {LoR SE b Haste} <br>
+                    {Slash Dice} {dmgroll 4 6}
+                  </div>
+                </div>
+              </div>
+              <hr class="deck-separator">
+            </div>
+            <div class="col-5 enemy-info">
+              <div class="slideshow-container enemy-info-sprite-container">
+                <div class="slide slides0">
+                  <a class="display-img" href="../images/abnos/Heart of Aspiration/LoR Idle.png" data-lightbox="LoR1" data-title="Idle"><img class="enemy-info-sprite slide" src="../images/abnos/Heart of Aspiration/LoR Idle.png"/></a>
+                </div>
+                <div class="slide notfirst slides0">
+                  <a class="display-img" href="../images/abnos/Heart of Aspiration/LoR Attack.png" data-lightbox="LoR1" data-title="Attacking"><img class="enemy-info-sprite slide" src="../images/abnos/Heart of Aspiration/LoR Attack.png"/></a>
+                </div>
+                <div class="slide notfirst slides0">
+                  <a class="display-img" href="../images/abnos/Heart of Aspiration/LoR Move.png" data-lightbox="LoR1" data-title="Moving"><img class="enemy-info-sprite slide" src="../images/abnos/Heart of Aspiration/LoR Move.png"/></a>
+                </div>
+                <div class="slide notfirst slides0">
+                  <a class="display-img" href="../images/abnos/Heart of Aspiration/LoR Guard.png" data-lightbox="LoR1" data-title="Guarding"><img class="enemy-info-sprite slide" src="../images/abnos/Heart of Aspiration/LoR Guard.png"/></a>
+                </div>
+                <div class="slide notfirst slides0">
+                  <a class="display-img" href="../images/abnos/Heart of Aspiration/LoR Hurt.png" data-lightbox="LoR1" data-title="Hurt"><img class="enemy-info-sprite slide" src="../images/abnos/Heart of Aspiration/LoR Hurt.png"/></a>
+                </div>
+                <a class="prev" onclick="nextSlide(-1,0)">&#10094;</a>
+                <a class="next" onclick="nextSlide(1,0)">&#10095;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="deck">
+        <button class="deck-header collapsible-btn" onclick="toggleCollapse(this)">Lungs of Craving's Deck</button>
+        <div class="deck-content collapsible-content">
+          <div class="row">
+            <div class="col-7 lor-page-container">
+              <div class="lor-page">
+                <div class="col-2 lor-page-img-container">
+                  <a class="display-img" href="../images/abnos/Heart of Aspiration/LoR Fervent Beats.png" data-lightbox="deck1" data-title="Fervent Beats"><img class="lor-page-img" src="../images/abnos/Heart of Aspiration/LoR Fervent Beats.png"/></a>
+                </div>
+                <div class="col-10 lor-page-details">
+                  <div class="lor-page-details-header">
+                    <span class="lor-page-name hardcover">Fervent Beats</span>
+                    <span class="lor-page-stats">{Melee} | 1 {Light}</span>
+                  </div>
+                  <div class="lor-page-text">
+                    {Pierce Dice} {dmgroll 1 3} <br>
+                    {Pierce Dice} {dmgroll 1 2} <br>
+                    {Pierce Dice} {dmgroll 1 1}
+                  </div>
+                </div>
+              </div>
+              <hr class="deck-separator">
+              <div class="lor-page">
+                <div class="col-2 lor-page-img-container">
+                  <a class="display-img" href="../images/abnos/Heart of Aspiration/LoR Fervent Beats.png" data-lightbox="deck1" data-title="Retracting Beats"><img class="lor-page-img" src="../images/abnos/Heart of Aspiration/LoR Fervent Beats.png"/></a>
+                </div>
+                <div class="col-10 lor-page-details">
+                  <div class="lor-page-details-header">
+                    <span class="lor-page-name hardcover">Retracting Beats</span>
+                    <span class="lor-page-stats">{Melee} | 1 {Light}</span>
+                  </div>
+                  <div class="lor-page-text">
+                    {Block Dice} {defroll 3 4} <br>
+                    {Pierce Dice} {dmgroll 1 4}
+                  </div>
+                </div>
+              </div>
+              <hr class="deck-separator">
+            </div>
+            <div class="col-5 enemy-info">
+              <div class="slideshow-container enemy-info-sprite-container">
+                <div class="slide slides1">
+                  <a class="display-img" href="../images/abnos/Heart of Aspiration/Lungs/LoR Idle.png" data-lightbox="LoR2" data-title="Idle"><img class="enemy-info-sprite slide" src="../images/abnos/Heart of Aspiration/Lungs/LoR Idle.png"/></a>
+                </div>
+                <div class="slide notfirst slides1">
+                  <a class="display-img" href="../images/abnos/Heart of Aspiration/Lungs/LoR Attack.png" data-lightbox="LoR2" data-title="Attacking"><img class="enemy-info-sprite slide" src="../images/abnos/Heart of Aspiration/Lungs/LoR Attack.png"/></a>
+                </div>
+                <div class="slide notfirst slides1">
+                  <a class="display-img" href="../images/abnos/Heart of Aspiration/Lungs/LoR Move.png" data-lightbox="LoR2" data-title="Moving"><img class="enemy-info-sprite slide" src="../images/abnos/Heart of Aspiration/Lungs/LoR Move.png"/></a>
+                </div>
+                <div class="slide notfirst slides1">
+                  <a class="display-img" href="../images/abnos/Heart of Aspiration/Lungs/LoR Guard.png" data-lightbox="LoR2" data-title="Guarding"><img class="enemy-info-sprite slide" src="../images/abnos/Heart of Aspiration/Lungs/LoR Guard.png"/></a>
+                </div>
+                <div class="slide notfirst slides1">
+                  <a class="display-img" href="../images/abnos/Heart of Aspiration/Lungs/LoR Hurt.png" data-lightbox="LoR2" data-title="Hurt"><img class="enemy-info-sprite slide" src="../images/abnos/Heart of Aspiration/Lungs/LoR Hurt.png"/></a>
+                </div>
+                <a class="prev" onclick="nextSlide(-1,1)">&#10094;</a>
+                <a class="next" onclick="nextSlide(1,1)">&#10095;</a>
+              </div>
+              <hr class="enemy-info-separator">
+              <div class="enemy-info-passives">
+                <ul class="passive-list">
+                  <li><b>Aspiration</b>: Lose 4 HP if the character did not deal any damage for a Scene.</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="deck abno-pages-container">
+        <button class="deck-header collapsible-btn active" onclick="toggleCollapse(this)">Abnormality Pages</button>
+        <div class="deck-content collapsible-content expanded-content">
+          <table class="abno-pages">
+            <tr class="breakdown-bg">
+              <td class="abno-page-img">
+                <div class="lor-page-img-container">
+                  <a class="display-img" href="../images/abnos/Heart of Aspiration/LoR Pulsation.png" data-lightbox="abnopages" data-title="Pulsation"><img class="lor-page-img" src="../images/abnos/Heart of Aspiration/LoR Pulsation.png"/></a><br>
+                  <span class="abno-page-name">Pulsation</span>
+                </div>
+              </td>
+              <td>[All Allies]<br>Gain 1-2 {LoR SE b Strength} at the end of each Scene.<br>At the end of each Scene, if the librarian did not deal any damage with Offensive dice, they lose 25% of their Max HP. (Max. 30)<br><span class="abno-page-quote">Excessive aspiration will result in a frenzy.</span></td>
+              <td>
+                <ul class="abno-page-quote-list">
+                  <li>Overwhelming aspiration is what leads to wrongful frenzy.</li>
+                  <li>Why won’t you wish for anything when you’ve earned such power?</li>
+                  <li>He who holds power should rightfully wield it.</li>
+                  <li>It seems we have a common goal we’re desperately wishing for, so allow us to help.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr class="awakening-bg">
+              <td class="abno-page-img">
+                <div class="lor-page-img-container">
+                  <a class="display-img" href="../images/abnos/Heart of Aspiration/LoR Urging.png" data-lightbox="abnopages" data-title="Urging"><img class="lor-page-img" src="../images/abnos/Heart of Aspiration/LoR Urging.png"/></a><br>
+                  <span class="abno-page-name">Urging</span>
+                </div>
+              </td>
+              <td>[Single Ally]<br>Increase Max HP by 15%. (Current HP increases accordingly)<br>Gain 1-2 Speed.<br><span class="abno-page-quote">When equipped, the heartrate will double, raising both vigour and strength.</span></td>
+              <td>
+                <ul class="abno-page-quote-list">
+                  <li>Don’t you want to see the end of this thrill that’s about to burst?</li>
+                  <li>Give meaning to all the things we’ve wished for.</li>
+                  <li>Your craving will make the beats faster.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr class="breakdown-bg">
+              <td class="abno-page-img">
+                <div class="lor-page-img-container">
+                  <a class="display-img" href="../images/abnos/Heart of Aspiration/LoR Fervent Beats.png" data-lightbox="abnopages" data-title="Fervent Beats"><img class="lor-page-img" src="../images/abnos/Heart of Aspiration/LoR Fervent Beats.png"/></a><br>
+                  <span class="abno-page-name">Fervent Beats</span>
+                </div>
+              </td>
+              <td>[Single Ally]<br>The selected librarian dies at the end of the third Scene after which this page was chosen.<br>Gain 4 {LoR SE b Strength}, {LoR SE b Endurance}, {LoR SE b Haste}, and {LoR SE b Protection} each Scene until death. All Stagger damage resistances change to "Ineffective".<br><span class="abno-page-quote">A heart without an owner. It still beats even after being removed from the body.</span></td>
+              <td>
+                <ul class="abno-page-quote-list">
+                  <li>Yes, feel the rapid beating of your heart.</li>
+                  <li>The more you aspire, the faster the beats will get.</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div><br>
+
+      <h5 class="profile-subheader">Battle Quotes</h5>
+      <div class="abno-story battle-quotes">
+        <li class="red-text">"Never stop wishing for it, until the beats give an answer."</li>
+        <li class="red-text">"If there was any meaning to everything we wished for…"</li>
+        <li class="red-text">"Only self-destruction awaits at the end of excessive aspiration."</li>
+        <li class="red-text">"Every time something goes wrong, the beats will become faster and faster."</li>
+        <li class="red-text">"If you keep craving and do nothing to sate it, it’ll become too big and burst eventually."</li>
+        <span class="quote-cond">After landing a hit with 'Beats of Aspiration':</span>        
+        <li class="red-text">"Join me in this feverish and quick pulsation."</li>
+        <li class="red-text">"Even if it means I must burst someday, I want to see the end of it."</li>
+      </div>
+    </section><br>
+
+    <section>
+      <h3 class="profile-header">Gallery</h3>
+      <hr class="header-seperator">
+      <div class="abno-gallery">
+        <a class="display-img" href="../images/abnos/Heart of Aspiration/LC Idle.png" data-lightbox="gallery" data-title="Idle Sprite<br>(Lobotomy Corporation)"><img class="gallery-img" src="../images/abnos/Heart of Aspiration/LC Idle.png"/></a>
+        <a class="display-img" href="../images/abnos/Heart of Aspiration/LoR Idle.png" data-lightbox="gallery" data-title="Idle Sprite<br>(Library of Ruina)"><img class="gallery-img" src="../images/abnos/Heart of Aspiration/LoR Idle.png"/></a>
+        <a class="display-img" href="../images/abnos/Heart of Aspiration/LoR Pulsation.png" data-lightbox="gallery" data-title="Pulsation"><img class="gallery-img" src="../images/abnos/Heart of Aspiration/LoR Pulsation.png"/></a>
+        <a class="display-img" href="../images/abnos/Heart of Aspiration/LoR Urging.png" data-lightbox="gallery" data-title="Urging"><img class="gallery-img" src="../images/abnos/Heart of Aspiration/LoR Urging.png"/></a>
+        <a class="display-img" href="../images/abnos/Heart of Aspiration/LoR Fervent Beats.png" data-lightbox="gallery" data-title="Fervent Beats"><img class="gallery-img" src="../images/abnos/Heart of Aspiration/LoR Fervent Beats.png"/></a>
+        <a class="display-img" href="../images/abnos/Heart of Aspiration/LoR EGO.png" data-lightbox="gallery" data-title="Aspiration"><img class="gallery-img" src="../images/abnos/Heart of Aspiration/LoR EGO.png"/></a>
+        <a class="display-img" href="../images/abnos/Heart of Aspiration/LoR BG.png" data-lightbox="gallery" data-title="Battle Background<br>(Library of Ruina)"><img class="gallery-img" src="../images/abnos/Heart of Aspiration/LoR BG.png"/></a>
+      </div>
+    </section>
+
+  </body>
+</html>
