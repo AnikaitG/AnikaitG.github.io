@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <p class="abno-quote"><q>People lie all the time. Why is that a bad thing?</q></p>
+
+    <section class="abno-intro">
+      <p><b>{abnoName}</b> is a wooden marionette with a thin body and lanky limbs. It has hollowed eyes and a mouth carved out at the bottom of its head which also acts as a slot to connect the head to the neck. Three long, thin strings are attached to the top of its head, and loosely fall behind it like hair. A marionette controller hangs above it, with chains linking it to the Abnormality.</p>
+
+      <p>{abnoName} has a tendency to observe others and learn from them, and by doing so also learns to copy them. It mimicks people in the hopes that it can be a person too. However, due to this, it also learned to lie. By lying, its long nose grows even longer and impales people.</p>
+    </section>
+
+    <section>
+      <h3 class="profile-header">Library of Ruina</h3>
+      <hr class="header-seperator">
+
+      <div class="page-img-container">
+        <a class="display-img" href="../images/abnos/Pinocchio/LoR Idle.png" data-lightbox="LoRIdle" data-title="Idle"><img class="page-img" src="../images/abnos/Pinocchio/LoR Idle.png"/></a>
+        <div class="caption">{abnoName} in Library of Ruina</div>
+      </div>
+
+      <p>{abnoName} appears as the third Abnormality on the {Floor of General Works}, unlocking {Awakening Learning}, {Breakdown Lies}, and {Breakdown Curiosity} after its suppression.</p>
+
+      <p>In its book, {abnoName}'s hands are replaced by axes. It is also joined by two smaller copies of itself. All three {abnoName}s lack proper decks and instead they each copy the deck of a different opponent. While {abnoName} the Curious is alive, the cost of every page will be randomized. And while {abnoName} the Copycat is alive, all {abnoName}s gain either {LoR SE b Strength} or {LoR SE b Endurance} each turn.</p>
+
+      <p>Every 3 turns, {abnoName} will tell a Lie, by using a page from the copied deck that displays false information. On this turn, a random librarian will receive a copy of '<span class="hardcover">Lying is Bad!</span>' which must be used to clash against the page containing the lie.<br>
+      If the lie is correctly identified and busted, {abnoName} will lose 4 Power ensuring a won clash. All {abnoName}s will receive stat debuffs the following turn and have their Stagger resistances set to "Weak".<br>
+      However, if the lie is not busted, {abnoName} will instead gain 4 Power ensuring a lost clash. Additionally, all {abnoName}s will receive heavy stat buffs the following turn.</p>
+
+      <h5 class="profile-subheader">Decks & Pages</h5>
+
+      <div class="deck">
+        <button class="deck-header collapsible-btn" onclick="toggleCollapse(this)">{abnoName} the Liar's Deck</button>
+        <div class="deck-content collapsible-content">
+          <div class="row">
+            <div class="col-7 lor-page-container">
+              <div class="lor-page">
+                <div class="col-2 lor-page-img-container">
+                  <a class="display-img" href="../images/abnos/Pinocchio/LoR Lies.png" data-lightbox="deck0" data-title="Lying is Bad!"><img class="lor-page-img" src="../images/abnos/Pinocchio/LoR Lies.png"/></a>
+                </div>
+                <div class="col-10 lor-page-details">
+                  <div class="lor-page-details-header">
+                    <span class="lor-page-name hardcover">Lying is Bad!</span>
+                    <span class="lor-page-stats">{Melee} | 1 {Light}</span>
+                  </div>
+                  <div class="lor-page-text">
+                    <i>(Given to librarians)</i><br>
+                    <span class="lor-keyword">Start of Clash</span> Replace all dice with ones in the page that contains a Lie <br>
+                    {Slash Dice} {dmgroll 1 6}
+                  </div>
+                </div>
+              </div>
+              <hr class="deck-separator">
+            </div>
+            <div class="col-5 enemy-info">
+              <div class="slideshow-container enemy-info-sprite-container">
+                <div class="slide slides0">
+                  <a class="display-img" href="../images/abnos/Pinocchio/LoR Idle.png" data-lightbox="LoR1" data-title="Idle"><img class="enemy-info-sprite slide" src="../images/abnos/Pinocchio/LoR Idle.png"/></a>
+                </div>
+                <div class="slide notfirst slides0">
+                  <a class="display-img" href="../images/abnos/Pinocchio/LoR Attack.png" data-lightbox="LoR1" data-title="Attacking"><img class="enemy-info-sprite slide" src="../images/abnos/Pinocchio/LoR Attack.png"/></a>
+                </div>
+                <div class="slide notfirst slides0">
+                  <a class="display-img" href="../images/abnos/Pinocchio/LoR Move.png" data-lightbox="LoR1" data-title="Moving"><img class="enemy-info-sprite slide" src="../images/abnos/Pinocchio/LoR Move.png"/></a>
+                </div>
+                <div class="slide notfirst slides0">
+                  <a class="display-img" href="../images/abnos/Pinocchio/LoR Guard.png" data-lightbox="LoR1" data-title="Guarding"><img class="enemy-info-sprite slide" src="../images/abnos/Pinocchio/LoR Guard.png"/></a>
+                </div>
+                <div class="slide notfirst slides0">
+                  <a class="display-img" href="../images/abnos/Pinocchio/LoR Hurt.png" data-lightbox="LoR1" data-title="Hurt"><img class="enemy-info-sprite slide" src="../images/abnos/Pinocchio/LoR Hurt.png"/></a>
+                </div>
+                <a class="prev" onclick="nextSlide(-1,0)">&#10094;</a>
+                <a class="next" onclick="nextSlide(1,0)">&#10095;</a>
+              </div>
+              <hr class="enemy-info-separator">
+              <div class="enemy-info-passives">
+                <ul class="passive-list">
+                  <li><b>Impersonate</b>: Copies the Patron Librarian's Combat Bookshelf (deck). {Light} is restored to max each Scene.</li>
+                  <li><b>Lies</b>: Plays a page that contains a Lie every 2~3 Scenes which shows false information.</li>
+                  <li><b>Caught Long-nosed</b>: When clashing against '<span class="hardcover">Lying is Bad!</span>' while lying, all dice lose 4 Power.</li>
+                  <li><b>Joyous Fible-fable</b>: While lying, all dice gain +4 Power if the character doesn't clash against '<span class="hardcover">Lying is Bad!</span>'.</li>
+                  <li><b>Why is it Bad?</b>: After the Lie has been sniffed out, all Pinocchios gain 2 {LoR SE d Feeble} and 2 {LoR SE d Disarm} next Scene and all Stagger damage resistances change to "Weak".</li>
+                  <li><b>Lalala~</b>: If the Lie isn't busted, all Pinocchios gain 4 {LoR SE b Strength} and 4 {LoR SE b Endurance} next Scene.</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="deck">
+        <button class="deck-header collapsible-btn" onclick="toggleCollapse(this)">{abnoName} the Curious/Copycat's Deck</button>
+        <div class="deck-content collapsible-content">
+          <div class="row">
+            <div class="col-7 lor-page-container">
+              <div class="lor-page">
+                <div class="col-2 lor-page-img-container">
+                  <a class="display-img" href="../images/abnos/Pinocchio/LoR Learning.png" data-lightbox="deck1" data-title="Learn"><img class="lor-page-img" src="../images/abnos/Pinocchio/LoR Learning.png"/></a>
+                </div>
+                <div class="col-10 lor-page-details">
+                  <div class="lor-page-details-header">
+                    <span class="lor-page-name hardcover">Learn</span>
+                    <span class="lor-page-stats">{Melee} | 1 {Light}</span>
+                  </div>
+                  <div class="lor-page-text">
+                    <span class="lor-keyword">Start of Clash</span> Remove all dice from page and copy the dice on the opponent's page <br>
+                    {Blunt Dice} {dmgroll 3 5} <br>
+                    {Pierce Dice} {dmgroll 3 5} <br>
+                    {Blunt Dice} {dmgroll 3 5}
+                  </div>
+                </div>
+              </div>
+              <hr class="deck-separator">
+            </div>
+            <div class="col-5 enemy-info">
+              <div class="slideshow-container enemy-info-sprite-container">
+                <div class="slide slides1">
+                  <a class="display-img" href="../images/abnos/Pinocchio/Puppet/LoR Idle.png" data-lightbox="LoR2" data-title="Idle"><img class="enemy-info-sprite slide" src="../images/abnos/Pinocchio/Puppet/LoR Idle.png"/></a>
+                </div>
+                <div class="slide notfirst slides1">
+                  <a class="display-img" href="../images/abnos/Pinocchio/Puppet/LoR Attack.png" data-lightbox="LoR2" data-title="Attacking"><img class="enemy-info-sprite slide" src="../images/abnos/Pinocchio/Puppet/LoR Attack.png"/></a>
+                </div>
+                <div class="slide notfirst slides1">
+                  <a class="display-img" href="../images/abnos/Pinocchio/Puppet/LoR Move.png" data-lightbox="LoR2" data-title="Moving"><img class="enemy-info-sprite slide" src="../images/abnos/Pinocchio/Puppet/LoR Move.png"/></a>
+                </div>
+                <div class="slide notfirst slides1">
+                  <a class="display-img" href="../images/abnos/Pinocchio/Puppet/LoR Guard.png" data-lightbox="LoR2" data-title="Guarding"><img class="enemy-info-sprite slide" src="../images/abnos/Pinocchio/Puppet/LoR Guard.png"/></a>
+                </div>
+                <div class="slide notfirst slides1">
+                  <a class="display-img" href="../images/abnos/Pinocchio/Puppet/LoR Hurt.png" data-lightbox="LoR2" data-title="Hurt"><img class="enemy-info-sprite slide" src="../images/abnos/Pinocchio/Puppet/LoR Hurt.png"/></a>
+                </div>
+                <a class="prev" onclick="nextSlide(-1,1)">&#10094;</a>
+                <a class="next" onclick="nextSlide(1,1)">&#10095;</a>
+              </div>
+              <hr class="enemy-info-separator">
+              <div class="enemy-info-passives">
+                <ul class="passive-list">
+                  <li><b>Take After</b>: Copies the first Assistant Librarian's Combat Bookshelf (deck).</li>
+                  <li><b>A Song in Backward</b>: While this character is alive, the Cost of pages in the hands of all librarians is randomized each Scene. (4-Cost pages excluded)</li>
+                  <hr class="enemy-info-separator">
+                  <li><b>Rip Off</b>: Copies the second Assistant Librarian's Combat Bookshelf (deck).</li>
+                  <li><b>A Song for All</b>: While this character is alive, all Pinocchios gain either 2 {LoR SE b Strength} or 2 {LoR SE b Endurance} at the start of each Scene.</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="deck abno-pages-container">
+        <button class="deck-header collapsible-btn active" onclick="toggleCollapse(this)">Abnormality Pages</button>
+        <div class="deck-content collapsible-content expanded-content">
+          <table class="abno-pages">
+            <tr class="awakening-bg">
+              <td class="abno-page-img">
+                <div class="lor-page-img-container">
+                  <a class="display-img" href="../images/abnos/Pinocchio/LoR Learning.png" data-lightbox="abnopages" data-title="Learning"><img class="lor-page-img" src="../images/abnos/Pinocchio/LoR Learning.png"/></a><br>
+                  <span class="abno-page-name">Learning</span>
+                </div>
+              </td>
+              <td>[Single Ally]<br>Add a '<span class="hardcover">Learn</span>' page to hand: ‘Cost 2 - [Start of Clash] Replace all dice with ones on the opponent's page.’<br>The page is also included in the deck at the start of subsequent Acts.<br><span class="abno-page-quote">All the child could do was ‘learn’ by observing others and mimicking their behavior. And that was the problem.</span></td>
+              <td>
+                <ul class="abno-page-quote-list">
+                  <li>I’m not a fast learner. I just mimic what I see.</li>
+                  <li>It’s not hard to mimic others. I don’t have to think.</li>
+                  <li>I’ve learned lots of things, but I never go anywhere.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr class="breakdown-bg">
+              <td class="abno-page-img">
+                <div class="lor-page-img-container">
+                  <a class="display-img" href="../images/abnos/Pinocchio/LoR Lies.png" data-lightbox="abnopages" data-title="Lies"><img class="lor-page-img" src="../images/abnos/Pinocchio/LoR Lies.png"/></a><br>
+                  <span class="abno-page-name">Lies</span>
+                </div>
+              </td>
+              <td>[Single Ally]<br>At the start of the Scene, randomize the Costs of all pages whose original Cost is less than 4.<br><span class="abno-page-quote">People lie all the time. Why is that a bad thing?</span></td>
+              <td>
+                <ul class="abno-page-quote-list">
+                  <li>People love to say things the other way round.</li>
+                  <li>They said it wasn’t for them. That they were lying for the good of everyone…</li>
+                  <li>I see the world upside down, as people have taught me.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr class="breakdown-bg">
+              <td class="abno-page-img">
+                <div class="lor-page-img-container">
+                  <a class="display-img" href="../images/abnos/Pinocchio/LoR Curiosity.png" data-lightbox="abnopages" data-title="Curiosity"><img class="lor-page-img" src="../images/abnos/Pinocchio/LoR Curiosity.png"/></a><br>
+                  <span class="abno-page-name">Curiosity</span>
+                </div>
+              </td>
+              <td>[Single Ally]<br>At the start of the Scene, shuffle all pages into the draw pile and draw 4 pages.<br><span class="abno-page-quote">I’m keen to learn as usual. Would you like to see me learn?</span></td>
+              <td>
+                <ul class="abno-page-quote-list">
+                  <li>I still have lots of things I want to know. There’s lots to learn.</li>
+                  <li>If I see lots of things… Will I learn that much?</li>
+                  <li>I’m curious about this… curious about that… Oh, and what’s this?</li>
+                  <li>I’ve never seen that before… Where did it come from, and how?</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div><br>
+
+      <h5 class="profile-subheader">Battle Quotes</h5>
+      <div class="abno-story battle-quotes">
+        <li class="red-text">"I dream of becoming a human."</li>
+        <li class="red-text">"Am I a human if I mimic humans?"</li>
+        <li class="red-text">"It’s not hard to imitate others."</li>
+        <li class="red-text">"I’m keen to learn as usual. Would you like to see me learn?"</li>
+        <li class="red-text">"People taught me how to speak."</li>
+        <span class="quote-cond">When telling a Lie:</span>        
+        <li class="red-text">"People lie all the time. Why is that a bad thing?"</li>
+        <li class="red-text">"Lalala… I sing along to the song of lies sung by all."</li>
+        <li class="red-text">"It’s people’s fault for falling for my lies."</li>
+        <li class="red-text">"There was no choice, I had to lie to become a human…"</li>
+        <li class="red-text">"Did I look just like a human? I hope I did…"</li>
+        <span class="quote-cond">If the Lie is busted:</span>        
+        <li class="red-text">"Why aren’t you being fooled…? That was almost perfect…"</li>
+        <li class="red-text">"Can I… not become a human…?"</li>
+        <li class="red-text">"You could’ve let me fool you just once… You’re mean."</li>
+        <li class="red-text">"I learned hard to imitate it, too…"</li>
+        <li class="red-text">"I’m sad… I want to be a human…"</li>
+      </div>
+    </section><br>
+
+    <section>
+      <h3 class="profile-header">Gallery</h3>
+      <hr class="header-seperator">
+      <div class="abno-gallery">
+        <a class="display-img" href="../images/abnos/Pinocchio/LoR Idle.png" data-lightbox="gallery" data-title="Idle Sprite<br>(Library of Ruina)"><img class="gallery-img" src="../images/abnos/Pinocchio/LoR Idle.png"/></a>
+        <a class="display-img" href="../images/abnos/Pinocchio/LoR Learning.png" data-lightbox="gallery" data-title="Learning"><img class="gallery-img" src="../images/abnos/Pinocchio/LoR Learning.png"/></a>
+        <a class="display-img" href="../images/abnos/Pinocchio/LoR Lies.png" data-lightbox="gallery" data-title="Lies"><img class="gallery-img" src="../images/abnos/Pinocchio/LoR Lies.png"/></a>
+        <a class="display-img" href="../images/abnos/Pinocchio/LoR Curiosity.png" data-lightbox="gallery" data-title="Curiosity"><img class="gallery-img" src="../images/abnos/Pinocchio/LoR Curiosity.png"/></a>
+        <a class="display-img" href="../images/abnos/Pinocchio/LoR EGO.png" data-lightbox="gallery" data-title="Deceit"><img class="gallery-img" src="../images/abnos/Pinocchio/LoR EGO.png"/></a>
+        <a class="display-img" href="../images/abnos/Pinocchio/LoR BG.png" data-lightbox="gallery" data-title="Battle Background<br>(Library of Ruina)"><img class="gallery-img" src="../images/abnos/Pinocchio/LoR BG.png"/></a>
+      </div>
+    </section>
+
+  </body>
+</html>
