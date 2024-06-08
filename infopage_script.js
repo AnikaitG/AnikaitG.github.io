@@ -94,7 +94,7 @@ function insertAbnoName(abnoName) {
         content = content.replace(/{Floor of Art}/g, `<img class="icon-image floor-icon" src="../images/icons/Floor of Art.png"> <span style="color: var(--artfloor);">Floor of Art</span>`);
         content = content.replace(/{Floor of Natural Sciences}/g, `<img class="icon-image floor-icon" src="../images/icons/Floor of Natural Sciences.png"> <span style="color: var(--natscifloor);">Floor of Natural Sciences</span>`);
         content = content.replace(/{Floor of Language}/g, `<img class="icon-image floor-icon" src="../images/icons/Floor of Language.png"> <span style="color: var(--langfloor);">Floor of Language</span>`);
-        content = content.replace(/{Floor of Social Sciences}/g, `<img class="icon-image floor-icon" src="../images/icons/Floor of Social Sciences.png"> <span style="color: var(--scoscifloor);">Floor of Social Sciences</span>`);
+        content = content.replace(/{Floor of Social Sciences}/g, `<img class="icon-image floor-icon" src="../images/icons/Floor of Social Sciences.png"> <span style="color: var(--socscifloor);">Floor of Social Sciences</span>`);
         content = content.replace(/{Floor of Philosophy}/g, `<img class="icon-image floor-icon" src="../images/icons/Floor of Philosophy.png"> <span style="color: var(--philofloor);">Floor of Philosophy</span>`);
         content = content.replace(/{Floor of Religion}/g, `<img class="icon-image floor-icon" src="../images/icons/Floor of Religion.png"> <span style="color: var(--religionfloor);">Floor of Religion</span>`);
         content = content.replace(/{Floor of General Works}/g, `<img class="icon-image floor-icon" src="../images/icons/Floor of General Works.png"> <span style="color: var(--generalfloor);">Floor of General Works</span>`);
