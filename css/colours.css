@@ -94,6 +94,10 @@
 .enk-icon {
     vertical-align: 0%;
 }
+.warning-icon {
+    height: 1em;
+    width: .5em;
+}
 .card-type-icon {
     width: 1.35em;
     margin-right: -0.25%;

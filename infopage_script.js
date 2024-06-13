@@ -75,11 +75,12 @@ function insertAbnoName(abnoName) {
         content = content.replace(/{Normal}/g, `<img class="icon-image" src="../images/icons/Normal.png"> <span style="color: var(--normal);">Normal</span>`);
         content = content.replace(/{Bad}/g, `<img class="icon-image" src="../images/icons/Bad.png"> <span style="color: var(--bad);">Bad</span>`);
 
-        content = content.replace(/{First Warning}/g, `<img class="icon-image" src="../images/icons/First Warning.png"> <span style="color: var(--warning1);">First Warning</span>`);
-        content = content.replace(/{Second Warning}/g, `<img class="icon-image" src="../images/icons/Second Warning.png"> <span style="color: var(--warning2);">Second Warning</span>`);
-        content = content.replace(/{Third Warning}/g, `<img class="icon-image" src="../images/icons/Third Warning.png"> <span style="color: var(--warning3);">Third Warning</span>`);
+        content = content.replace(/{First Warning}/g, `<img class="icon-image warning-icon" src="../images/icons/First Warning.png"> <span style="color: var(--warning1);">First Warning</span>`);
+        content = content.replace(/{Second Warning}/g, `<img class="icon-image warning-icon" src="../images/icons/Second Warning.png"> <span style="color: var(--warning2);">Second Warning</span>`);
+        content = content.replace(/{Third Warning}/g, `<img class="icon-image warning-icon" src="../images/icons/Third Warning.png"> <span style="color: var(--warning3);">Third Warning</span>`);
 
         content = content.replace(/{E-Boxes}/g, `<img class="icon-image enk-icon" src="../images/icons/Enkephalin.png"> <span style="color: var(--enk);">E-Boxes</span>`);
+        content = content.replace(/{PE-Boxes}/g, `<img class="icon-image enk-icon" src="../images/icons/Enkephalin.png"> <span style="color: var(--enk);">PE-Boxes</span>`);
 
         content = content.replace(/{Light}/g, `<img class="icon-image light-icon" src="../images/icons/Light.png"> <span style="color: var(--light);">Light</span>`);
 
