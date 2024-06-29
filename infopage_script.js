@@ -60,11 +60,11 @@ function insertAbnoName(abnoName) {
         content = content.replace(/{Attachment}/g, `<img class="icon-image" src="../images/icons/Attachment.png"> <span style="color: var(--black);">Attachment</span>`);
         content = content.replace(/{Repression}/g, `<img class="icon-image" src="../images/icons/Repression.png"> <span style="color: var(--pale);">Repression</span>`);
 
-        content = content.replace(/{Request}/g, `<img class="icon-image" src="../images/icons/Request.png"> <span class="special-wr">Request</span>`);
-        content = content.replace(/{Sacrifice}/g, `<img class="icon-image" src="../images/icons/Sacrifice.png"> <span class="special-wr">Sacrifice</span>`);
-        content = content.replace(/{Confession}/g, `<img class="icon-image" src="../images/icons/Confession.png"> <span class="special-wr">Confession</span>`);
-        content = content.replace(/{Protection}/g, `<img class="icon-image" src="../images/icons/Protection.png"> <span class="special-wr">Protection</span>`);
-        content = content.replace(/{Performance}/g, `<img class="icon-image" src="../images/icons/Performance.png"> <span class="special-wr">Performance</span>`);
+        content = content.replace(/{Request}/g, `<img class="icon-image" src="../images/icons/Request.png"> <span class="special-work">Request</span>`);
+        content = content.replace(/{Sacrifice}/g, `<img class="icon-image" src="../images/icons/Sacrifice.png"> <span class="special-work">Sacrifice</span>`);
+        content = content.replace(/{Confession}/g, `<img class="icon-image" src="../images/icons/Confession.png"> <span class="special-work">Confession</span>`);
+        content = content.replace(/{Protection}/g, `<img class="icon-image" src="../images/icons/Protection.png"> <span class="special-work">Protection</span>`);
+        content = content.replace(/{Performance}/g, `<img class="icon-image" src="../images/icons/Performance.png"> <span class="special-work">Performance</span>`);
 
         content = content.replace(/{Fortitude}/g, `<img class="icon-image" src="../images/icons/Fortitude.png"> <span style="color: var(--red);">Fortitude</span>`);
         content = content.replace(/{Prudence}/g, `<img class="icon-image" src="../images/icons/Prudence.png"> <span style="color: var(--white);">Prudence</span>`);
