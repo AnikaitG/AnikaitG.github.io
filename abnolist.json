@@ -905,7 +905,7 @@
     {
         "name": "Faelantern",
         "risk": "TETH",
-        "code": "?-??-??-??",
+        "code": "F-04-21-03",
         "ego": "Lantern",
         "games": ["LCB"]
     },
@@ -967,22 +967,22 @@
     },
     {
         "name": "Portrait of a Certain Day",
-        "risk": "UNKNOWN",
-        "code": "?-??-??-??",
+        "risk": "TETH",
+        "code": "O-02-20-05",
         "ego": "Bygone Days",
         "games": ["LCB"]
     },
     {
         "name": "Dreaming Electric Sheep",
-        "risk": "UNKNOWN",
-        "code": "?-??-??-??",
+        "risk": "HE",
+        "code": "F-01-20-08",
         "ego": "Electric Screaming",
         "games": ["LCB"]
     },
     {
         "name": "The King in Binds",
-        "risk": "UNKNOWN",
-        "code": "?-??-??-??",
+        "risk": "WAW",
+        "code": "O-01-20-12",
         "ego": "Binds",
         "games": ["LCB"]
     },
