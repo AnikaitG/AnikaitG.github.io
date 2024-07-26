@@ -305,7 +305,7 @@
         "risk": "HE",
         "code": "T-01-68",
         "ego": "Solemn Vow",
-        "games": ["LC","LoR"]
+        "games": ["LC","LoR","LCB"]
     },
     {
         "name": "Der Freischütz",
@@ -1197,10 +1197,10 @@
         "games": ["LCB"]
     },
     {
-        "name": "Der Schütze",
+        "name": "Der Fluchschütze",
         "risk": "UNKNOWN",
         "code": "?-??-??-??",
-        "ego": "???",
+        "ego": "Fell Bullet",
         "games": ["LCB"]
     },
     {
