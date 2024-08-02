@@ -40,15 +40,19 @@ function loadAbnoInfo(abno) {
     .then(html => {
         document.getElementById("abno-info-page").innerHTML += html;
         document.getElementById("title-header").classList.add(`risk-box-${abno.risk}`)
-        insertAbnoName(abnoName);
+        insertAbnoName(abno);
     })
 }
 
-function insertAbnoName(abnoName) {
+function insertAbnoName(abno) {
+    const abnoName = abno.name;
+    const abnoEGO = abno.ego;
+
     var elements = document.querySelectorAll(".output-abno-name");
     elements.forEach(e => {
         var content = e.innerHTML;
         content = content.replace(/{abnoName}/g, abnoName);
+        content = content.replace(/{abnoEGO}/g, abnoEGO);
 
         content = content.replace(/{RED}/g, `<img class="icon-image" src="../images/icons/RED Damage.png"> <span style="color: var(--red);">RED</span>`);
         content = content.replace(/{WHITE}/g, `<img class="icon-image" src="../images/icons/WHITE Damage.png"> <span style="color: var(--white);">WHITE</span>`);
