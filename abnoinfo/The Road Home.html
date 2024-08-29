@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <p class="abno-quote"><q>Let’s walk together. To a wonderful land… The world of dreams.</q></p>
+
+    <section class="abno-intro">
+      <p><b>{abnoName}</b> is a small, young girl with light brown hair and pigtails, and a pair of big round blue eyes. The Abnormality also lacks arms. It wears a black dress, a pair of silver shoes, and a big red bow in its hair.</p>
+
+      <p>When certain conditions are met, a small house will fall from the sky, crushing anyone below it. {abnoName} has the ability to create glowing yellow bricks which it uses to pave a road to its home. However, the Abnormality is never able to reach the house, and ends up going on an endless journey with its three friends.</p>
+    </section>
+
+    <section>
+      <h3 class="profile-header">Library of Ruina</h3>
+      <hr class="header-seperator">
+
+      <div class="page-img-container">
+        <a class="display-img" href="../images/abnos/The Road Home/LoR Idle.png" data-lightbox="LoRIdle" data-title="Idle"><img class="page-img" src="../images/abnos/The Road Home/LoR Idle.png"/></a>
+        <div class="caption">{abnoName}<br>in Library of Ruina</div>
+      </div>
+
+      <p>{abnoName} appears as the third Abnormality on the {Floor of Social Sciences} alongside <a href="profile.html?abno=Scaredy Cat">Scaredy Cat</a>, unlocking {Breakdown Courage}, {Awakening Home}, and {Awakening A Road Walked Together} after its suppression.</p>
+
+      <p>In its book, {abnoName} will try to reach the Home guarded by the librarians. If it ever reaches the Home, the battle is lost. It however cannot directly go Home and must first create a path to reach it. On the first turn, it will use a Mass Attack, '<span class="limited">Let’s Go, Together…</span>', targetting two random librarians and the Home. This applies {LoR SE r Yellow Brick Road} to the librarians, and creates a yellow brick road between them leading towards the Home.<br>
+      The following turn it will use a copy of '<span class="limited">Friends! Let’s Go Home~!</span>' against each of the targets from the previous round sequentially. This attack cannot be redirected, and will Stagger the target on hit. If the attacks hits the Home, the battle is lost. If both librarians with {LoR SE r Yellow Brick Road} are able to win against their respective clashes against the attack, the attack on Home will be cancelled.</p>
+
+      <p>This pattern repeats a second time after which {abnoName} will use a Mass Attack, '<span class="workofart">You… Wicked Wizard!</span>', time time targetting all librarians. If all librarians are able to avoid the attack, {abnoName} will become Staggered the next turn. As the Abnormality uses high-rolling Evades every turn, this is the most opportune moment to damage it.</p>
+
+      <h5 class="profile-subheader">Decks & Pages</h5>
+
+      <div class="deck">
+        <button class="deck-header collapsible-btn" onclick="toggleCollapse(this)">{abnoName}'s Deck</button>
+        <div class="deck-content collapsible-content">
+          <div class="row">
+            <div class="col-7 lor-page-container">
+              <div class="lor-page">
+                <div class="col-2 lor-page-img-container">
+                  <a class="display-img" href="../images/abnos/The Road Home/LoR Let's Go Together.png" data-lightbox="deck0" data-title="Let’s Go, Together…"><img class="lor-page-img" src="../images/abnos/The Road Home/LoR Let's Go Together.png"/></a>
+                </div>
+                <div class="col-10 lor-page-details">
+                  <div class="lor-page-details-header">
+                    <span class="lor-page-name limited">Let’s Go, Together…</span>
+                    <span class="lor-page-stats">{Mass Attack} | 0 {Light}</span>
+                  </div>
+                  <div class="lor-page-text">
+                    <span class="lor-keyword">Mass-Individual</span> <br>
+                    <span class="lor-keyword">On Use</span> Apply {LoR SE r Yellow Brick Road} to two librarians next Scene<br>
+                    {Blunt Dice} {dmgroll 3 6} <br>
+                    {Blunt Dice} {dmgroll 3 6} <br>
+                    {Blunt Dice} {dmgroll 3 6}
+                  </div>
+                </div>
+              </div>
+              <hr class="deck-separator">
+              <div class="lor-page">
+                <div class="col-2 lor-page-img-container">
+                  <a class="display-img" href="../images/abnos/The Road Home/LoR A Road Walked Together.png" data-lightbox="deck0" data-title="Friends! Let’s Go Home~!"><img class="lor-page-img" src="../images/abnos/The Road Home/LoR A Road Walked Together.png"/></a>
+                </div>
+                <div class="col-10 lor-page-details">
+                  <div class="lor-page-details-header">
+                    <span class="lor-page-name limited">Friends! Let’s Go Home~!</span>
+                    <span class="lor-page-stats">{Melee} | 0 {Light}</span>
+                  </div>
+                  <div class="lor-page-text">
+                    Cannot be redirected<br>
+                    {Blunt Dice} {dmgroll 4 4} <span class="lor-keyword">On Hit</span> Stagger target. The battle is lost if the attack hits the 'Home'
+                  </div>
+                </div>
+              </div>
+              <hr class="deck-separator">
+              <div class="lor-page">
+                <div class="col-2 lor-page-img-container">
+                  <a class="display-img" href="../images/abnos/The Road Home/LoR A Road Walked Together.png" data-lightbox="deck0" data-title="Play Tag!"><img class="lor-page-img" src="../images/abnos/The Road Home/LoR A Road Walked Together.png"/></a>
+                </div>
+                <div class="col-10 lor-page-details">
+                  <div class="lor-page-details-header">
+                    <span class="lor-page-name paperback">Play Tag!</span>
+                    <span class="lor-page-stats">{Ranged} | 0 {Light}</span>
+                  </div>
+                  <div class="lor-page-text">
+                    {Evade Dice} {defroll 3 8} <br>
+                    {Evade Dice} {defroll 3 8} <br>
+                    {Evade Dice} {defroll 3 8}
+                  </div>
+                </div>
+              </div>
+              <hr class="deck-separator">
+              <div class="lor-page">
+                <div class="col-2 lor-page-img-container">
+                  <a class="display-img" href="../images/abnos/The Road Home/LoR Home.png" data-lightbox="deck0" data-title="You… Wicked Wizard!"><img class="lor-page-img" src="../images/abnos/The Road Home/LoR Home.png"/></a>
+                </div>
+                <div class="col-10 lor-page-details">
+                  <div class="lor-page-details-header">
+                    <span class="lor-page-name workofart">You… Wicked Wizard!</span>
+                    <span class="lor-page-stats">{Mass Attack} | 0 {Light}</span>
+                  </div>
+                  <div class="lor-page-text">
+                    <span class="lor-keyword">Mass-Summation</span> <br>
+                    If any librarian is hit, the 'Home' is spawned next Scene. Otherwise, user becomes Staggered next Scene, and 'Home' is spawned the Scene after. <br>
+                    {Blunt Dice} {dmgroll 10 10}
+                  </div>
+                </div>
+              </div>
+              <hr class="deck-separator">
+            </div>
+            <div class="col-5 enemy-info">
+              <div class="slideshow-container enemy-info-sprite-container">
+                <div class="slide slides0">
+                  <a class="display-img" href="../images/abnos/The Road Home/LoR Idle.png" data-lightbox="LoR1" data-title="Idle"><img class="enemy-info-sprite slide" src="../images/abnos/The Road Home/LoR Idle.png"/></a>
+                </div>
+                <div class="slide notfirst slides0">
+                  <a class="display-img" href="../images/abnos/The Road Home/LoR Attack.png" data-lightbox="LoR1" data-title="Attacking"><img class="enemy-info-sprite slide" src="../images/abnos/The Road Home/LoR Attack.png"/></a>
+                </div>
+                <div class="slide notfirst slides0">
+                  <a class="display-img" href="../images/abnos/The Road Home/LoR Mass Attack Road.png" data-lightbox="LoR1" data-title="Using 'Let’s Go, Together…'"><img class="enemy-info-sprite slide" src="../images/abnos/The Road Home/LoR Mass Attack Road.png"/></a>
+                </div>
+                <div class="slide notfirst slides0">
+                  <a class="display-img" href="../images/abnos/The Road Home/LoR Mass Attack Home.png" data-lightbox="LoR1" data-title="Using 'You… Wicked Wizard!'"><img class="enemy-info-sprite slide" src="../images/abnos/The Road Home/LoR Mass Attack Home.png"/></a>
+                </div>
+                <div class="slide notfirst slides0">
+                  <a class="display-img" href="../images/abnos/The Road Home/LoR Move.png" data-lightbox="LoR1" data-title="Moving"><img class="enemy-info-sprite slide" src="../images/abnos/The Road Home/LoR Move.png"/></a>
+                </div>
+                <div class="slide notfirst slides0">
+                  <a class="display-img" href="../images/abnos/The Road Home/LoR Evade.png" data-lightbox="LoR1" data-title="Evading"><img class="enemy-info-sprite slide" src="../images/abnos/The Road Home/LoR Evade.png"/></a>
+                </div>
+                <div class="slide notfirst slides0">
+                  <a class="display-img" href="../images/abnos/The Road Home/LoR Special.png" data-lightbox="LoR1" data-title="Special"><img class="enemy-info-sprite slide" src="../images/abnos/The Road Home/LoR Special.png"/></a>
+                </div>
+                <div class="slide notfirst slides0">
+                  <a class="display-img" href="../images/abnos/The Road Home/LoR Hurt.png" data-lightbox="LoR1" data-title="Hurt"><img class="enemy-info-sprite slide" src="../images/abnos/The Road Home/LoR Hurt.png"/></a>
+                </div>
+                <a class="prev" onclick="nextSlide(-1,0)">&#10094;</a>
+                <a class="next" onclick="nextSlide(1,0)">&#10095;</a>
+              </div>
+              <hr class="enemy-info-separator">
+              <div class="enemy-info-passives">
+                <ul class="passive-list">
+                  <li><b>Let’s Go Together…</b>: On the first Scene of the battle, spawns the 'Home', and uses a Mass Attack Page that applies the status {LoR SE r Yellow Brick Road} to its targets.</li>
+                  <li><b>Friends! Let’s Go Home~!</b>: On the second Scene, uses the Combat Page '<span class="limited">Friends! Let’s Go Home~!</span>' targeting the 'Home' and the librarians with {LoR SE r Yellow Brick Road}.<br>If the Combat Page hits 'Home', the battle is lost.<br>The attack on the 'Home' is canceled if all librarians with {LoR SE r Yellow Brick Road} win the clash against '<span class="limited">Friends! Let’s Go Home~!</span>'.</li>
+                  <li><b>You… Gosh Darned Wizard…!</b>: After the Abnormality's attack towards 'Home' has been canceled two times, uses a Mass Attack ("<span class="workofart">You… Wicked Wizard!</span>") the following Scene. If any librarian is hit by the attack, the 'Home' is spawned next Scene, and repeats the previous behavior.<br>If no librarian is damaged by the attack, the Abnormality becomes Staggered next Scene.</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="deck abno-pages-container">
+        <button class="deck-header collapsible-btn active" onclick="toggleCollapse(this)">Abnormality Pages</button>
+        <div class="deck-content collapsible-content expanded-content">
+          <table class="abno-pages">
+            <tr class="awakening-bg">
+              <td class="abno-page-img">
+                <div class="lor-page-img-container">
+                  <a class="display-img" href="../images/abnos/The Road Home/LoR Home.png" data-lightbox="abnopages" data-title="Home"><img class="lor-page-img" src="../images/abnos/The Road Home/LoR Home.png"/></a><br>
+                  <span class="abno-page-name">Home</span>
+                </div>
+              </td>
+              <td>[All Allies]<br>At the start of the Scene, numbered targets are placed on up to 3/2/2/1/1 enemies, depending on the number of allies currently alive.<br>Each time a target is attacked in the correct order, increase outgoing damage by 3 for the Scene.<br><span class="abno-page-quote">Unable to ever go back home, they began an endless journey.</span></td>
+              <td>
+                <ul class="abno-page-quote-list">
+                  <li>Don’t bother us! Let us go home in peace!</li>
+                  <li>Ah~ That wizard! That wicked wizard!</li>
+                  <li>The mean wizard took my friends!</li>
+                  <li>Friends. Oh, friends. Will we get to go home?</li>
+                </ul>
+              </td>
+            </tr>
+            <tr class="awakening-bg">
+              <td class="abno-page-img">
+                <div class="lor-page-img-container">
+                  <a class="display-img" href="../images/abnos/The Road Home/LoR A Road Walked Together.png" data-lightbox="abnopages" data-title="A Road Walked Together"><img class="lor-page-img" src="../images/abnos/The Road Home/LoR A Road Walked Together.png"/></a><br>
+                  <span class="abno-page-name">A Road Walked Together</span>
+                </div>
+              </td>
+              <td>[Single Ally]<br>If an ally redirects an attack that was initially targeting this character, dice on that ally's page gain 1-2 Power in the clash.<br><span class="abno-page-quote">Let’s walk together. To a wonderful land… The world of dreams.</span></td>
+              <td>
+                <ul class="abno-page-quote-list">
+                  <li>I was sound asleep, then the adventure suddenly began.</li>
+                  <li>Hoyoyo~ Let’s go, together~!</li>
+                  <li>Let’s skip home together!</li>
+                  <li>There must be a beautiful wonderland at the end of the road…</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div><br>
+
+      <h5 class="profile-subheader">Battle Quotes</h5>
+      <div class="abno-story battle-quotes">
+        <li class="red-text">"Friend… Let’s go together… together…"</li>
+        <li class="red-text">"Let us all… gather together… for an adventure…"</li>
+        <li class="red-text">"I was sound asleep… then the adventure suddenly began…"</li>
+        <li class="red-text">"Let’s go with me. Let’s go together, friend."</li>
+        <li class="red-text">"Let’s go home… To home, together…"</li>
+        <span class="quote-cond">When using 'Let’s Go, Together…':</span>        
+        <li class="red-text">"…When I was sleeping… Riding… Scary…"</li>
+        <li class="red-text">"…An endless adventure began!"</li>
+        <li class="red-text">"Let’s all… Let’s all… Let’s all… gather up…"</li>
+        <span class="quote-cond">When using 'Friends! Let’s Go Home~!':</span>        
+        <li class="red-text">"Hoyoyo~ Let’s go, together~! Let’s skip home together~!"</li>
+        <li class="red-text">"At the end of the road, a wonderful land… A world of dreams will be waiting for us."</li>
+        <li class="red-text">"We can get through the long and winding road if we stick together!"</li>
+        <li class="red-text">"My lion pal, and the new buddies here. We’ll all go together!"</li>
+        <li class="red-text">"If we follow this path, we’ll find the home we’ve been looking for so eagerly!"</li>
+        <li class="red-text">"Friend. Oh, friends~! Let’s go. Let’s go home~!"</li>
+        <li class="red-text">"Dance and gather round~ Homeward we go!"</li>
+        <span class="quote-cond">When using 'You… Wicked Wizard!':</span>        
+        <li class="red-text">"Ah~ That wizard! That wicked wizard!"</li>
+        <li class="red-text">"Don’t bother us! Let us go home in peace!"</li>
+        <li class="red-text">"The mean wizard took my friends! He took every one of them away from me…"</li>
+      </div>
+    </section><br>
+
+    <section>
+      <h3 class="profile-header">Gallery</h3>
+      <hr class="header-seperator">
+      <div class="abno-gallery">
+        <a class="display-img" href="../images/abnos/The Road Home/LoR Idle.png" data-lightbox="gallery" data-title="Idle Sprite<br>(Library of Ruina)"><img class="gallery-img" src="../images/abnos/The Road Home/LoR Idle.png"/></a>
+        <a class="display-img" href="../images/abnos/The Road Home/Home/LoR Idle.png" data-lightbox="gallery" data-title="Home"><img class="gallery-img" src="../images/abnos/The Road Home/Home/LoR Idle.png"/></a>
+        <a class="display-img" href="../images/abnos/The Road Home/LoR Home.png" data-lightbox="gallery" data-title="Home"><img class="gallery-img" src="../images/abnos/The Road Home/LoR Home.png"/></a>
+        <a class="display-img" href="../images/abnos/The Road Home/LoR A Road Walked Together.png" data-lightbox="gallery" data-title="A Road Walked Together"><img class="gallery-img" src="../images/abnos/The Road Home/LoR A Road Walked Together.png"/></a>
+        <a class="display-img" href="../images/abnos/The Road Home/LoR EGO.png" data-lightbox="gallery" data-title="{abnoEGO}"><img class="gallery-img" src="../images/abnos/The Road Home/LoR EGO.png"/></a>
+        <a class="display-img" href="../images/abnos/The Road Home/LoR BG.png" data-lightbox="gallery" data-title="Battle Background<br>(Library of Ruina)"><img class="gallery-img" src="../images/abnos/The Road Home/LoR BG.png"/></a>
+      </div>
+    </section>
+
+  </body>
+</html>
