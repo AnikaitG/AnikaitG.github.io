@@ -4,7 +4,7 @@
         "risk": "ZAYIN",
         "code": "O-03-03",
         "ego": "Penitence",
-        "games": ["LC","LoR"]
+        "games": ["LC","LoR", "LCB"]
     },
     {
         "name": "Standard Training Dummy Rabbit",
@@ -987,6 +987,27 @@
         "games": ["LCB"]
     },
     {
+        "name": "Hurting Teddy Bear",
+        "risk": "TETH",
+        "code": "T-04-16-02",
+        "ego": "Hex Nail",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Rose Hunter",
+        "risk": "HE",
+        "code": "F-01-16-10",
+        "ego": "Snare",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Four-hundred Roses",
+        "risk": "UNKNOWN",
+        "code": "F-04-16-04",
+        "ego": "Yearning-Mircalla",
+        "games": ["LCB"]
+    },
+    {
         "name": "Rising Ashes",
         "risk": "UNKNOWN",
         "code": "?-??-??-??",
@@ -1019,13 +1040,6 @@
         "risk": "UNKNOWN",
         "code": "?-??-??-??",
         "ego": "???",
-        "games": ["LCB"]
-    },
-    {
-        "name": "Hurting Teddy Bear",
-        "risk": "UNKNOWN",
-        "code": "?-??-??-??",
-        "ego": "Hex Nail",
         "games": ["LCB"]
     },
     {
@@ -1113,13 +1127,6 @@
         "games": ["LCB"]
     },
     {
-        "name": "Four-hundred Roses",
-        "risk": "UNKNOWN",
-        "code": "?-??-??-??",
-        "ego": "???",
-        "games": ["LCB"]
-    },
-    {
         "name": "Children in the Flask",
         "risk": "UNKNOWN",
         "code": "?-??-??-??",
@@ -1163,13 +1170,6 @@
     },
     {
         "name": "Forsaken Employee",
-        "risk": "UNKNOWN",
-        "code": "?-??-??-??",
-        "ego": "???",
-        "games": ["LCB"]
-    },
-    {
-        "name": "Rose Hunter",
         "risk": "UNKNOWN",
         "code": "?-??-??-??",
         "ego": "???",
@@ -1295,10 +1295,10 @@
         "games": ["LCB"]
     },
     {
-        "name": "Clockwork Roly-poly",
+        "name": "Clockwork-Time-Roly-poly",
         "risk": "UNKNOWN",
         "code": "?-??-??-??",
-        "ego": "???",
+        "ego": "Asymmetrical Inertia",
         "games": ["LCB"]
     },
     {
@@ -1319,14 +1319,21 @@
         "name": "Basilisoup",
         "risk": "UNKNOWN",
         "code": "?-??-??-??",
-        "ego": "???",
+        "ego": "Lifetime Stew",
         "games": ["LCB"]
     },
     {
         "name": "Sandolph",
         "risk": "UNKNOWN",
         "code": "?-??-??-??",
-        "ego": "???",
+        "ego": "Holiday",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Cozy Bed",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "Christmas Nightmare",
         "games": ["LCB"]
     }
 ]
