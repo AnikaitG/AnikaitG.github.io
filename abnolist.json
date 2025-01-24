@@ -813,7 +813,7 @@
     },
     {
         "name": "Baba Yaga",
-        "risk": "UNKNOWN",
+        "risk": "TETH",
         "code": "F-05-10-18",
         "ego": "Rime Shank",
         "games": ["LCB"]
@@ -1267,10 +1267,10 @@
         "games": ["LCB"]
     },
     {
-        "name": "Sleeping Bag of Olden Days",
+        "name": "Sleeping Bag of a Bygone Day",
         "risk": "UNKNOWN",
         "code": "?-??-??-??",
-        "ego": "???",
+        "ego": "Thoracalgia",
         "games": ["LCB"]
     },
     {
