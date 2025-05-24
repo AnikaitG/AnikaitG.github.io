@@ -1001,10 +1001,31 @@
         "games": ["LCB"]
     },
     {
+        "name": "Sleeping Bag of a Bygone Day",
+        "risk": "TETH",
+        "code": "T-03-16-15",
+        "ego": "Thoracalgia",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Der Fluchschütze",
+        "risk": "HE",
+        "code": "F-01-16-13",
+        "ego": "Fell Bullet",
+        "games": ["LCB"]
+    },
+    {
         "name": "Four-hundred Roses",
-        "risk": "UNKNOWN",
+        "risk": "WAW",
         "code": "F-04-16-04",
         "ego": "Yearning-Mircalla",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Centipede Apostle",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "Hundred-Footed Death Maggot",
         "games": ["LCB"]
     },
     {
@@ -1153,14 +1174,7 @@
         "code": "?-??-??-??",
         "ego": "???",
         "games": ["LCB"]
-    },
-    {
-        "name": "Centipede Apostle",
-        "risk": "UNKNOWN",
-        "code": "?-??-??-??",
-        "ego": "???",
-        "games": ["LCB"]
-    },
+    },    
     {
         "name": "4th Front of the Smoke War",
         "risk": "UNKNOWN",
@@ -1194,13 +1208,6 @@
         "risk": "UNKNOWN",
         "code": "?-??-??-??",
         "ego": "???",
-        "games": ["LCB"]
-    },
-    {
-        "name": "Der Fluchschütze",
-        "risk": "UNKNOWN",
-        "code": "?-??-??-??",
-        "ego": "Fell Bullet",
         "games": ["LCB"]
     },
     {
@@ -1267,13 +1274,6 @@
         "games": ["LCB"]
     },
     {
-        "name": "Sleeping Bag of a Bygone Day",
-        "risk": "UNKNOWN",
-        "code": "?-??-??-??",
-        "ego": "Thoracalgia",
-        "games": ["LCB"]
-    },
-    {
         "name": "Handshake of Handshakes",
         "risk": "UNKNOWN",
         "code": "?-??-??-??",
@@ -1334,6 +1334,13 @@
         "risk": "UNKNOWN",
         "code": "?-??-??-??",
         "ego": "Christmas Nightmare",
+        "games": ["LCB"]
+    },
+    {
+        "name": "Burning Duchess",
+        "risk": "UNKNOWN",
+        "code": "?-??-??-??",
+        "ego": "Indicant's Trial",
         "games": ["LCB"]
     }
 ]
